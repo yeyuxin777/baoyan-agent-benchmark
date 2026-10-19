@@ -106,7 +106,7 @@ This is **屿智同行**'s benchmark project for graduate admissions agents.
 
 ## Contributing and citation
 
-Contributions to questions, rubrics, evaluation tools and documentation are welcome through Issues and Pull Requests. Cite the [MIT-licensed software](CITATION.cff) for code and tooling, and the [CC BY 4.0 dataset](https://huggingface.co/datasets/yuxin7778/baoyan-agent-benchmark/blob/main/CITATION.cff) for tasks or rubrics. Record the version, content hashes and agent configuration used.
+Contributions to questions, rubrics, evaluation tools and documentation are welcome through Issues and Pull Requests. See [CONTRIBUTING.md](CONTRIBUTING.md) for the contribution workflow, evaluation-integrity boundaries and validation expectations. Cite the [MIT-licensed software](CITATION.cff) for code and tooling, and the [CC BY 4.0 dataset](https://huggingface.co/datasets/yuxin7778/baoyan-agent-benchmark/blob/main/CITATION.cff) for tasks or rubrics. Record the version, content hashes and agent configuration used.
 
 ## Acknowledgements
 

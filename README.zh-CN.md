@@ -106,7 +106,7 @@ python3 -m benchmark cli-batch \
 
 ## 参与贡献与引用
 
-欢迎通过 Issue 或 Pull Request 改进题目、评分标准、评测工具和文档。引用代码或工具请用 [MIT 软件引用](CITATION.cff)；引用题目或评分资料请用 [CC BY 4.0 数据集引用](https://huggingface.co/datasets/yuxin7778/baoyan-agent-benchmark/blob/main/CITATION.cff)。注明版本、内容哈希及 Agent 配置。
+欢迎通过 Issue 或 Pull Request 改进题目、评分标准、评测工具和文档。贡献流程、评测完整性边界和验证要求见 [CONTRIBUTING.md](CONTRIBUTING.md)。引用代码或工具请用 [MIT 软件引用](CITATION.cff)；引用题目或评分资料请用 [CC BY 4.0 数据集引用](https://huggingface.co/datasets/yuxin7778/baoyan-agent-benchmark/blob/main/CITATION.cff)。注明版本、内容哈希及 Agent 配置。
 
 ## 致谢
 
