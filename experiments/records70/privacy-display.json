@@ -25,11 +25,11 @@
     },
     {
       "path": "README.md",
-      "public_display_sha256": "508e91b2ccda1ae776d197b980c260874b2fd7b37a045009e05ad69e7acf5cc4"
+      "public_display_sha256": "d7b0cfc93eb22270b39a0d7cd5face5d5e1d087263604b3189253d5a12732660"
     },
     {
       "path": "README.zh-CN.md",
-      "public_display_sha256": "0bb53599923636937d6f9921648bd1c402858cb54160fc59713e60482799977f"
+      "public_display_sha256": "49ed24f3bce71d7301e6ca34d8e13356d0f13ec352fe1ae4291103518e5c3fca"
     },
     {
       "path": "benchmark/__init__.py",
@@ -933,7 +933,7 @@
     },
     {
       "path": "docs/figures/dev70-current/results-manifest.json",
-      "public_display_sha256": "1694ddf3ff96321ea688909d36f8c7a91b3949619f6ee87c97b6dbc79301c2d5"
+      "public_display_sha256": "e670a29c5824db2a880eb96b385bf773ea1604f55ef8ec4053386feb4044e965"
     },
     {
       "path": "docs/huggingface/CALIBRATION-STATUS.md",
@@ -14733,11 +14733,11 @@
     },
     {
       "path": "scripts/render_answer_index.py",
-      "public_display_sha256": "bc52eafc91bc635041dc26e435f69c77fb73efccef463e595e5b71026798aab2"
+      "public_display_sha256": "600662bb90709320ee2d3cf59c0e51bbc1f5ea6b666280abb18a784a3cdfc5ed"
     },
     {
       "path": "scripts/render_current70_figures.py",
-      "public_display_sha256": "c088861cef6f4af4fbb6cb1a272334eaa75570d9f5aef5766c437d8b2b583e81"
+      "public_display_sha256": "28d7a1327f03b14b5df0d6acd536fff5df594fce17a80795733943c6ca2ef8af"
     },
     {
       "path": "scripts/score_adjudication.py",
@@ -16441,7 +16441,7 @@
     },
     {
       "path": "docs/figures/dev70-current/fig1_en_workbuddy.png",
-      "public_display_sha256": "0eb94046eb89f3771df31e96df4004fe028889fbfe6cb874dac9cd2e60b66602"
+      "public_display_sha256": "7f31087ba1aac34519639b609cafd6e5b72751e8fd3a374831bb41065c98175a"
     },
     {
       "path": "docs/figures/dev70-current/fig1_zh_workbuddy.png",
@@ -16449,7 +16449,7 @@
     },
     {
       "path": "docs/figures/dev70-current/fig3_en_workbuddy.png",
-      "public_display_sha256": "6cfd15264c8bf85b12a256c3fecfed47187b13bafecfb4a8aaabf6dca553e01e"
+      "public_display_sha256": "6c6f93289d0bb19423ac19f38741e706c029de3b069a8b0345f0073cbd18a802"
     },
     {
       "path": "docs/figures/dev70-current/fig3_zh_workbuddy.png",
@@ -16457,7 +16457,7 @@
     },
     {
       "path": "scripts/render_agent_score_charts.py",
-      "public_display_sha256": "874519037bb5d393ba1e8d29dbc7fead4625ef615adf2ed3861c0de3e31f590d"
+      "public_display_sha256": "3bcf54065bc35939227aad34781774ca3aae79108e901f42c6ebe818978f1c0a"
     }
   ],
   "generated_at": "2026-11-11T11:21:29.498449+08:00",

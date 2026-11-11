@@ -13,6 +13,18 @@ ROOT = Path(__file__).resolve().parents[1]
 ANSWERS = ROOT / 'experiments/records70'
 def read(p): return json.loads(Path(p).read_text(encoding='utf-8'))
 def interval(v):return f'{v[0]:.2f}' if v[0]==v[1] else f'{v[0]:.2f}–{v[1]:.2f}'
+
+def score_matches(row, folder):
+ if not row.get('score_path'):
+  return False
+ for name in ('effective-score.json','score.json'):
+  path=folder/name
+  if path.is_file():
+   score=read(path)
+   if score.get('score_interval')==row['interval'] and score.get('pending_nodes',[])==row.get('pending_nodes',[]):
+    return True
+ return False
+
 def render():
  rows=read(ANSWERS/'score-details-70.json')['rows']
  ranking=read(ANSWERS/'score-summary-70.json')['ranking']
@@ -34,11 +46,14 @@ def render():
     alink=f'[答卷 / Answer]({task}/{p.relative_to(folder).as_posix()})'
    else:alink='原始正文未留存 / Original text unavailable'
    review=[]
-   for name,label in [('judgment.json','逐项评审 / Judgment'),('score.json','评分 / Score'),('effective-score.json','生效分 / Effective score'),('adjudication.json','裁定 / Ruling'),('node-adjudication.json','节点裁定 / Node ruling')]:
-    if (folder/name).is_file():review.append(f'[{label}]({task}/{name})')
+   current_score=score_matches(row,folder)
+   if current_score:
+    for name,label in [('judgment.json','逐项评审 / Judgment'),('score.json','评分 / Score'),('effective-score.json','生效分 / Effective score'),('adjudication.json','裁定 / Ruling'),('node-adjudication.json','节点裁定 / Node ruling')]:
+     if (folder/name).is_file():review.append(f'[{label}]({task}/{name})')
    meta=[]
-   for name,label in [('metadata.json','元数据 / Metadata'),('run.json','运行 / Execution')]:
-    if (folder/name).is_file():meta.append(f'[{label}]({task}/{name})')
+   if current_score:
+    for key,name,label in [('metadata_path','metadata.json','元数据 / Metadata'),('run_path','run.json','运行 / Execution')]:
+     if row.get(key) and (folder/name).is_file():meta.append(f'[{label}]({task}/{name})')
    lines.append(f"| {row['question_id']} · {task} | {interval(row['interval'])} | {alink} | {' · '.join(review) or '—'} | {' · '.join(meta) or '—'} |")
   lines+=['','分数区间表示仍有待核事实；任务目录保存该题当前选定记录。','Score ranges retain unresolved facts; each task directory holds the current selected record.','']
   if (root/'manifest.json').is_file():lines+=['[运行与评分记录 / Run and scoring record](manifest.json)', '']

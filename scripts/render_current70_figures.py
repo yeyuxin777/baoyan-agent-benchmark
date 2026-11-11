@@ -63,6 +63,19 @@ def fmt(bounds):
     return f'{bounds[0]:.2f}' if bounds[0] == bounds[1] else f'{bounds[0]:.2f}–{bounds[1]:.2f}'
 
 
+def same_scoring_record(previous, incoming):
+    if previous.get('interval') != incoming['interval']:
+        return False
+    if previous.get('pending_nodes', []) != incoming.get('pending_nodes', []):
+        return False
+    if previous.get('answer_status') != incoming.get('answer_status'):
+        return False
+    evidence_keys = ('source_score_sha256', 'source_judgment_sha256',
+                     'source_rubric_sha256', 'source_task_sha256', 'run_id')
+    return all(key not in incoming or previous.get(key) == incoming[key]
+               for key in evidence_keys)
+
+
 def prepare_scores(source, selected, previous_rows):
     raw = read(source)
     tasks = {r['task_id']: r for r in selected['tasks']}
@@ -100,8 +113,14 @@ def prepare_scores(source, selected, previous_rows):
     for raw_row in raw['rows']:
         previous = previous_by_task.get((raw_row['agent'], raw_row['task_id']), {})
         answer_hash = raw_row.get('answer_sha256')
-        # Keep reviewed public metadata only when the import refers to the same answer.
-        row = previous.copy() if answer_hash and previous.get('answer_sha256') == answer_hash else {}
+        row = {}
+        if answer_hash and previous.get('answer_sha256') == answer_hash:
+            if same_scoring_record(previous, raw_row):
+                row = previous.copy()
+            else:
+                # The reviewed answer is still valid, but the old score evidence is stale.
+                row = {key: previous[key] for key in ('answer_path', 'public_answer_sha256')
+                       if key in previous}
         row.update({key: raw_row[key] for key in fields if key in raw_row})
         rows.append(row)
     exported['selected_record_count'] = len(rows)
