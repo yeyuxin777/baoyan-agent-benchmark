@@ -11,6 +11,7 @@ This page organizes answers, scores and execution records for the current 70 tas
 | DeepSeek V4.1 Flash | 68.16 | 70/70 | [查看 / Open](models/deepseek-v4-1-flash/README.md) |
 | GLM 5.3 Flash | 66.80 | 70/70 | [查看 / Open](models/ark-glm-5-3-flash-260828/README.md) |
 | Qwen3.8 Max | 64.24 | 70/70 | [查看 / Open](models/qwen3-8-max-0902/README.md) |
+| WorkBuddy + Hy4 preview | 59.43 | 70/70 | [查看 / Open](models/workbuddy-hy4-preview/README.md) |
 | Kimi K3 | 58.96 | 70/70 | [查看 / Open](models/kimi-k3/README.md) |
 | Gemini 3.8 Flash | 58.23 | 70/70 | [查看 / Open](models/antigravity-gemini-3-8-flash-high/README.md) |
 | Gemini 3.1 Pro | 55.55 | 70/70 | [查看 / Open](models/antigravity-gemini-3-1-pro-high/README.md) |

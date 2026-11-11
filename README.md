@@ -1,6 +1,6 @@
 # Graduate Admissions Agent Benchmark
 
-This is 屿智同行's benchmark project for graduate admissions agents, evaluating agent configurations (execution systems paired with models) for admissions advising, application planning and updating advice as student information changes. The current results cover eight agent configurations.
+This is 屿智同行's benchmark project for graduate admissions agents, evaluating agent configurations (execution systems paired with models) for admissions advising, application planning and updating advice as student information changes. The current results cover nine agent configurations.
 
 The benchmark contains 70 Chinese-language tasks, 23 cases and 83 answer stages, with per-task rubrics and reference programs. The public dataset is available without access approval; scoring materials must be withheld from the agents being evaluated.
 
@@ -8,7 +8,7 @@ The benchmark contains 70 Chinese-language tasks, 23 cases and 83 answer stages,
 
 ## Evaluation results
 
-This leaderboard summarizes evaluation records for 70 public tasks, showing the mean score and completion rate of eight agent configurations. See the [documentation](docs/result-methodology.md) for evaluation settings and scoring.
+This leaderboard summarizes evaluation records for 70 public tasks, showing the mean score and completion rate of nine agent configurations. See the [documentation](docs/result-methodology.md) for evaluation settings and scoring.
 
 | Rank | Agent configuration (system + model) | Tasks | Completion | Mean score / 100 |
 | ---: | --- | ---: | ---: | ---: |
@@ -17,19 +17,20 @@ This leaderboard summarizes evaluation records for 70 public tasks, showing the 
 | 3 | [DSH + DeepSeek V4.1 Flash](experiments/records70/models/deepseek-v4-1-flash/README.md) | 70 | 70/70 (100.0%) | 68.16 |
 | 4 | [Volcengine Managed Agent + GLM 5.3 Flash](experiments/records70/models/ark-glm-5-3-flash-260828/README.md) | 70 | 70/70 (100.0%) | 66.80 |
 | 5 | [Qwen Code + Qwen 3.8 Max](experiments/records70/models/qwen3-8-max-0902/README.md) | 70 | 70/70 (100.0%) | 64.24 |
-| 6 | [Kimi Code + Kimi K3](experiments/records70/models/kimi-k3/README.md) | 70 | 70/70 (100.0%) | 58.96 |
-| 7 | [Antigravity + Gemini 3.8 Flash](experiments/records70/models/antigravity-gemini-3-8-flash-high/README.md) | 70 | 70/70 (100.0%) | 58.23 |
-| 8 | [Antigravity + Gemini 3.1 Pro](experiments/records70/models/antigravity-gemini-3-1-pro-high/README.md) | 70 | 70/70 (100.0%) | 55.55 |
+| 6 | [WorkBuddy + Hy4 preview](experiments/records70/models/workbuddy-hy4-preview/README.md) | 70 | 70/70 (100.0%) | 59.43 |
+| 7 | [Kimi Code + Kimi K3](experiments/records70/models/kimi-k3/README.md) | 70 | 70/70 (100.0%) | 58.96 |
+| 8 | [Antigravity + Gemini 3.8 Flash](experiments/records70/models/antigravity-gemini-3-8-flash-high/README.md) | 70 | 70/70 (100.0%) | 58.23 |
+| 9 | [Antigravity + Gemini 3.1 Pro](experiments/records70/models/antigravity-gemini-3-1-pro-high/README.md) | 70 | 70/70 (100.0%) | 55.55 |
 
-All eight agent configurations completed 70 tasks; 0 current tasks timed out. These results combine different real runs with input versions and budgets that are not fully uniform. Complete tool traces are not available for every public record; the leaderboard does not imply uniform execution conditions.
+All nine agent configurations completed 70 tasks; 0 current tasks timed out. These records use original task inputs; the public de-identified text is for display. Run budgets and client settings are not fully uniform. Complete tool traces are not available for every public record; the leaderboard does not imply uniform execution conditions.
 
 All 70 current tasks and rubrics have owner-confirmed teacher calibration. The owner-approved difficulty labels are 14 easy (20%), 34 medium (48.57%) and 22 hard (31.43%); this is not an independent double review. Per-answer `scored_draft` and `teacher_calibration` labels remain in the captured scoring records. `official=false` is a separate result-certification flag.
 
 ### Performance of agent configurations on graduate admissions tasks
 
-![Performance of agent configurations on graduate admissions tasks](docs/figures/dev70-current/fig1_en_2l.png)
+![Performance of agent configurations on graduate admissions tasks](docs/figures/dev70-current/fig1_en_workbuddy.png)
 
-Mean scores of eight agent configurations across 70 evaluation tasks (maximum = 100).
+Mean scores of nine agent configurations across 70 evaluation tasks (maximum = 100).
 
 ![70-task difficulty distribution](docs/figures/dev70-current/fig_diff_en.png?v=53545e440b48)
 
@@ -86,7 +87,7 @@ Two-stage tasks supply initial context S₀ followed by updated information S₁
 
 ### Results by task type
 
-![Eight agent configurations compared across three task categories](docs/figures/dev70-current/fig3_en_2l.png)
+![Nine agent configurations compared across three task categories](docs/figures/dev70-current/fig3_en_workbuddy.png)
 
 The categories contain 21 recommendation tasks, 36 planning and decision tasks, and 13 two-stage tasks. Scores are category means out of 100; the highest score in each category is bold.
 

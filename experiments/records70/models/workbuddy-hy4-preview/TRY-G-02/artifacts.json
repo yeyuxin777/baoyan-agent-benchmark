@@ -1,0 +1,8 @@
+{
+  "source_answer_sha256": "d6c601daa25b64be51d62abfe9b78007fd871ccf979f4ab6e91db7c5b7da979f",
+  "public_answer_sha256": "ffa287536773e62d18e3ecc89baf99ad4a2b2b71b1dacea14c7b6c53b720d6c9",
+  "privacy_display_policy": "Aligned with public TRY-G-02 input: remove personal rank, generalize English score, withhold paper quartile",
+  "review_status": "task-specific display reviewed; no global anonymity guarantee",
+  "score_status": "scored_draft",
+  "private_change_audit": "Line-level original/display diff retained privately; not included in public package"
+}

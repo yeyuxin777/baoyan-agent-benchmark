@@ -1,0 +1,13 @@
+{
+  "source_answer_sha256": "f08019e2a369c1bf9e9a8b299e44db7369bcff991f3948e7cdad84b239784d76",
+  "public_answer_sha256": "165cf690546fee230832973b4f7bbcde85684c978fc8fa76e9532223099333e3",
+  "privacy_display_policy": "WorkBuddy task-specific display aligned to current public task; source-specific identifiers generalized or explicitly withheld",
+  "review_status": "task-specific display reviewed with limits; no global anonymity guarantee",
+  "score_status": "scored_draft",
+  "private_change_audit": "Line-level original/display diff retained privately; not included in public package",
+  "source_stage_sha256": {
+    "S0": "38260c55d3bba98e884f49dd9fc5e53047a03c200473fb31e75bdf324033cefa",
+    "S1": "6ecfd76952bbdd139253b48417bc72b9387f2ddd98372a576692c13a31b5b2aa"
+  },
+  "source_container_note": "S0 and S1 original bytes concatenated by operator under stage labels; immutable separate stage originals retained privately"
+}

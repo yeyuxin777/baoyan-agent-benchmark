@@ -1,11 +1,22 @@
 """Privacy-only display transforms; original scores and evidence stay immutable."""
 from functools import lru_cache
+from hashlib import sha256
 import json
 from pathlib import Path
 import re
 
 REVISION = 'privacy-v16-public70-display.1'
 ROOT = Path(__file__).resolve().parents[1]
+
+
+def update_file_hashes(index, root, outputs):
+    records = {record['path']: record for record in index['records']}
+    for output, content in outputs.items():
+        name = output.relative_to(root).as_posix()
+        if name not in records:
+            records[name] = {'path': name}
+            index['records'].append(records[name])
+        records[name]['public_display_sha256'] = sha256(content).hexdigest()
 
 
 @lru_cache(maxsize=1)

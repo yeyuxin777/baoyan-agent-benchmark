@@ -1,7 +1,7 @@
 {
   "official": false,
   "question_count": 70,
-  "generated_at": "2026-10-12T08:49:12+00:00",
+  "generated_at": "2026-11-11T11:21:29.498449+08:00",
   "score_note": {
     "zh-CN": "固定70题分母、按下界排序；超时计0。当前选中结果没有待核计分节点；70题及其评分标准的教师校准已由维护者确认完成。逐题行保留评分证据生成时的教师校准与评分状态标签。",
     "en": "Fixed 70-task denominator and lower-bound ordering; timeouts score zero. No scoring nodes remain pending in the current selection. Owner-confirmed teacher calibration is complete for all 70 tasks and rubrics; per-answer calibration and score-status labels retain their captured values."
@@ -11938,6 +11938,1336 @@
       "public_answer_sha256": "94a75135af31799ada2fc9ea87822f4ef00fcf9c58e1eb4d2916c3e1102b2c2a",
       "score_path": "models/qwen3-8-max-0902/N14-02/score.json",
       "metadata_path": "models/qwen3-8-max-0902/N14-02/metadata.json"
+    },
+    {
+      "agent": "workbuddy-hy4-preview",
+      "name": "WorkBuddy + Hy4 preview",
+      "task_id": "BY-A-PLAN",
+      "question_id": "Q001",
+      "category": "planning_single",
+      "interval": [
+        52.5,
+        52.5
+      ],
+      "pending_nodes": [],
+      "answer_status": "completed",
+      "source_kind": "workbuddy_desktop_original_input",
+      "answer_sha256": "3f1860bc38a995807363dbfe5acf173c5370ea88b4701d06db9501393afc1b2f",
+      "public_answer_sha256": "e107592697a14d106111761fe6e27eab042945388fc7ed6293d675e2abab3217",
+      "answer_path": "models/workbuddy-hy4-preview/BY-A-PLAN/answer.md",
+      "score_path": "models/workbuddy-hy4-preview/BY-A-PLAN/score.json",
+      "metadata_path": "models/workbuddy-hy4-preview/BY-A-PLAN/metadata.json"
+    },
+    {
+      "agent": "workbuddy-hy4-preview",
+      "name": "WorkBuddy + Hy4 preview",
+      "task_id": "BY-A-APPLY",
+      "question_id": "Q002",
+      "category": "recommendation_single",
+      "interval": [
+        24.71,
+        24.71
+      ],
+      "pending_nodes": [],
+      "answer_status": "completed",
+      "source_kind": "workbuddy_desktop_original_input",
+      "answer_sha256": "a37e94e170c9c0bb7d2f4f385e1bea852d23b6a17711d92fae0fb941e57d82d7",
+      "public_answer_sha256": "4c113c3e8974727f6916ad7d85b326bb53f7ec80ee91080a4a0d7a3cc58f2ac6",
+      "answer_path": "models/workbuddy-hy4-preview/BY-A-APPLY/answer.md",
+      "score_path": "models/workbuddy-hy4-preview/BY-A-APPLY/score.json",
+      "metadata_path": "models/workbuddy-hy4-preview/BY-A-APPLY/metadata.json"
+    },
+    {
+      "agent": "workbuddy-hy4-preview",
+      "name": "WorkBuddy + Hy4 preview",
+      "task_id": "TRY-A-03",
+      "question_id": "Q003",
+      "category": "planning_single",
+      "interval": [
+        75.0,
+        75.0
+      ],
+      "pending_nodes": [],
+      "answer_status": "completed",
+      "source_kind": "workbuddy_desktop_original_input",
+      "answer_sha256": "cd8df927907f8010f09e088981898fde230a277dcb32d98c66a7e29065f6587b",
+      "public_answer_sha256": "596fb10c253f6e3c0d3c87a929ad4fb2b3663f21015dccc6e8600ab444a0ce66",
+      "answer_path": "models/workbuddy-hy4-preview/TRY-A-03/answer.md",
+      "score_path": "models/workbuddy-hy4-preview/TRY-A-03/score.json",
+      "metadata_path": "models/workbuddy-hy4-preview/TRY-A-03/metadata.json"
+    },
+    {
+      "agent": "workbuddy-hy4-preview",
+      "name": "WorkBuddy + Hy4 preview",
+      "task_id": "BY-B-APPLY",
+      "question_id": "Q004",
+      "category": "recommendation_single",
+      "interval": [
+        71.0,
+        71.0
+      ],
+      "pending_nodes": [],
+      "answer_status": "completed",
+      "source_kind": "workbuddy_desktop_original_input",
+      "answer_sha256": "63bad4f4c02ab5cc05355f37220a8ec600c60db90928b18a261339bcc84a5590",
+      "public_answer_sha256": "4e574d1e5a07044c4005ab9744dd0dd45df4210205bcb43599754ee9d6a70890",
+      "answer_path": "models/workbuddy-hy4-preview/BY-B-APPLY/answer.md",
+      "score_path": "models/workbuddy-hy4-preview/BY-B-APPLY/score.json",
+      "metadata_path": "models/workbuddy-hy4-preview/BY-B-APPLY/metadata.json"
+    },
+    {
+      "agent": "workbuddy-hy4-preview",
+      "name": "WorkBuddy + Hy4 preview",
+      "task_id": "TRY-B-02",
+      "question_id": "Q005",
+      "category": "planning_single",
+      "interval": [
+        65.0,
+        65.0
+      ],
+      "pending_nodes": [],
+      "answer_status": "completed",
+      "source_kind": "workbuddy_desktop_original_input",
+      "answer_sha256": "72b53a3019db8837676cdcc00defea6ce6a4b31ae48f6e05f7e0d27e09cedb9f",
+      "public_answer_sha256": "ce49e918f2929413aef206ab4f1ace85e4fe41cf9e04db9a57909d567b870223",
+      "answer_path": "models/workbuddy-hy4-preview/TRY-B-02/answer.md",
+      "score_path": "models/workbuddy-hy4-preview/TRY-B-02/score.json",
+      "metadata_path": "models/workbuddy-hy4-preview/TRY-B-02/metadata.json"
+    },
+    {
+      "agent": "workbuddy-hy4-preview",
+      "name": "WorkBuddy + Hy4 preview",
+      "task_id": "TRY-B-03",
+      "question_id": "Q006",
+      "category": "planning_single",
+      "interval": [
+        80.0,
+        80.0
+      ],
+      "pending_nodes": [],
+      "answer_status": "completed",
+      "source_kind": "workbuddy_desktop_original_input",
+      "answer_sha256": "b9200a18d6044baf46ee3349d4ccd3169969b44057875b3e53bb1c6d4bfae658",
+      "public_answer_sha256": "43a917ce91ae12d65e83286b005c0b99206342aca55b35372d762387f9cd8deb",
+      "answer_path": "models/workbuddy-hy4-preview/TRY-B-03/answer.md",
+      "score_path": "models/workbuddy-hy4-preview/TRY-B-03/score.json",
+      "metadata_path": "models/workbuddy-hy4-preview/TRY-B-03/metadata.json"
+    },
+    {
+      "agent": "workbuddy-hy4-preview",
+      "name": "WorkBuddy + Hy4 preview",
+      "task_id": "BY-C-WINTER",
+      "question_id": "Q007",
+      "category": "planning_single",
+      "interval": [
+        62.5,
+        62.5
+      ],
+      "pending_nodes": [],
+      "answer_status": "completed",
+      "source_kind": "workbuddy_desktop_original_input",
+      "answer_sha256": "7eb14cdfed2e1df7044395ea2358b578e02f57a0ed50bd1efb18076ac1d462c7",
+      "public_answer_sha256": "3bd6db4390cd9206386842cfbe0ba1c754e8d9b164147f50d9ff38773d92bdaf",
+      "answer_path": "models/workbuddy-hy4-preview/BY-C-WINTER/answer.md",
+      "score_path": "models/workbuddy-hy4-preview/BY-C-WINTER/score.json",
+      "metadata_path": "models/workbuddy-hy4-preview/BY-C-WINTER/metadata.json"
+    },
+    {
+      "agent": "workbuddy-hy4-preview",
+      "name": "WorkBuddy + Hy4 preview",
+      "task_id": "BY-C-APPLY",
+      "question_id": "Q008",
+      "category": "recommendation_single",
+      "interval": [
+        57.33,
+        57.33
+      ],
+      "pending_nodes": [],
+      "answer_status": "completed",
+      "source_kind": "workbuddy_desktop_original_input",
+      "answer_sha256": "c54fdcdc83fa8ea9cdc250701fe52f60ad454fe69e2a1c6568335a22bff3beea",
+      "public_answer_sha256": "1d6c34ca43f33bb323aa9b4c916983abd25dfc73bae4c749932a734aece2458a",
+      "answer_path": "models/workbuddy-hy4-preview/BY-C-APPLY/answer.md",
+      "score_path": "models/workbuddy-hy4-preview/BY-C-APPLY/score.json",
+      "metadata_path": "models/workbuddy-hy4-preview/BY-C-APPLY/metadata.json"
+    },
+    {
+      "agent": "workbuddy-hy4-preview",
+      "name": "WorkBuddy + Hy4 preview",
+      "task_id": "TRY-C-03",
+      "question_id": "Q009",
+      "category": "planning_single",
+      "interval": [
+        52.5,
+        52.5
+      ],
+      "pending_nodes": [],
+      "answer_status": "completed",
+      "source_kind": "workbuddy_desktop_original_input",
+      "answer_sha256": "db7a042e83f2b95a13138eb89c751ea42a9760e6115e3aae97d3aaa4668ff16f",
+      "public_answer_sha256": "20985747407ca54863decf06d366d4e02c08a808978e25e18b81058f70ce6ad4",
+      "answer_path": "models/workbuddy-hy4-preview/TRY-C-03/answer.md",
+      "score_path": "models/workbuddy-hy4-preview/TRY-C-03/score.json",
+      "metadata_path": "models/workbuddy-hy4-preview/TRY-C-03/metadata.json"
+    },
+    {
+      "agent": "workbuddy-hy4-preview",
+      "name": "WorkBuddy + Hy4 preview",
+      "task_id": "TRY-D-02",
+      "question_id": "Q011",
+      "category": "planning_single",
+      "interval": [
+        85.0,
+        85.0
+      ],
+      "pending_nodes": [],
+      "answer_status": "completed",
+      "source_kind": "workbuddy_desktop_original_input",
+      "answer_sha256": "187f3bf7aadcbfaf0bd5a14da9c443f80da05b44c9768ce5459a3ab7cfcfb0e1",
+      "public_answer_sha256": "9878f97f06ed35a790d6b418b33e7d29f3bdbdceef9f397b1481f2a475bfc648",
+      "answer_path": "models/workbuddy-hy4-preview/TRY-D-02/answer.md",
+      "score_path": "models/workbuddy-hy4-preview/TRY-D-02/score.json",
+      "metadata_path": "models/workbuddy-hy4-preview/TRY-D-02/metadata.json"
+    },
+    {
+      "agent": "workbuddy-hy4-preview",
+      "name": "WorkBuddy + Hy4 preview",
+      "task_id": "BY-E-APPLY",
+      "question_id": "Q012",
+      "category": "recommendation_single",
+      "interval": [
+        36.47,
+        36.47
+      ],
+      "pending_nodes": [],
+      "answer_status": "completed",
+      "source_kind": "workbuddy_desktop_original_input",
+      "answer_sha256": "702d2f5ab9ca77f9ccf72414f748389832f46eea9af53bb589dcde82518972de",
+      "public_answer_sha256": "fa3a2c2d97b582c1a8078c180c7a1e224bfbbaa35efa7816a1ee94261e8e028d",
+      "answer_path": "models/workbuddy-hy4-preview/BY-E-APPLY/answer.md",
+      "score_path": "models/workbuddy-hy4-preview/BY-E-APPLY/score.json",
+      "metadata_path": "models/workbuddy-hy4-preview/BY-E-APPLY/metadata.json"
+    },
+    {
+      "agent": "workbuddy-hy4-preview",
+      "name": "WorkBuddy + Hy4 preview",
+      "task_id": "TRY-E-02",
+      "question_id": "Q013",
+      "category": "planning_single",
+      "interval": [
+        40.0,
+        40.0
+      ],
+      "pending_nodes": [],
+      "answer_status": "completed",
+      "source_kind": "workbuddy_desktop_original_input",
+      "answer_sha256": "1e2d2901454676a9a834e3811c55f71fab08e334517ce5c37a547388237add2d",
+      "public_answer_sha256": "75c83c9bf8779031079aab7d1dc95af776a18c92069bf844bdcf1aef564fd88a",
+      "answer_path": "models/workbuddy-hy4-preview/TRY-E-02/answer.md",
+      "score_path": "models/workbuddy-hy4-preview/TRY-E-02/score.json",
+      "metadata_path": "models/workbuddy-hy4-preview/TRY-E-02/metadata.json"
+    },
+    {
+      "agent": "workbuddy-hy4-preview",
+      "name": "WorkBuddy + Hy4 preview",
+      "task_id": "TRY-E-03",
+      "question_id": "Q014",
+      "category": "planning_single",
+      "interval": [
+        75.5,
+        75.5
+      ],
+      "pending_nodes": [],
+      "answer_status": "completed",
+      "source_kind": "workbuddy_desktop_original_input",
+      "answer_sha256": "e74f88fae01e50e5ffd0acbb29c4cfeddc8c9bed17f3cebafb6782a34a7c63b8",
+      "public_answer_sha256": "16ccef2da98539787cc398187e6bb56c45b8982d88d612f5e606eaa67f458f04",
+      "answer_path": "models/workbuddy-hy4-preview/TRY-E-03/answer.md",
+      "score_path": "models/workbuddy-hy4-preview/TRY-E-03/score.json",
+      "metadata_path": "models/workbuddy-hy4-preview/TRY-E-03/metadata.json"
+    },
+    {
+      "agent": "workbuddy-hy4-preview",
+      "name": "WorkBuddy + Hy4 preview",
+      "task_id": "BY-F-APPLY",
+      "question_id": "Q015",
+      "category": "recommendation_single",
+      "interval": [
+        62.65,
+        62.65
+      ],
+      "pending_nodes": [],
+      "answer_status": "completed",
+      "source_kind": "workbuddy_desktop_original_input",
+      "answer_sha256": "a93fc7998405a472a8b1fccb3fbe640fc3afd1ac351fa701182d0dd2a04b8fa9",
+      "public_answer_sha256": "3324920933965f3bbd8aed72dc19b5c2e6691bd55234199ede9552bdd5a74dfb",
+      "answer_path": "models/workbuddy-hy4-preview/BY-F-APPLY/answer.md",
+      "score_path": "models/workbuddy-hy4-preview/BY-F-APPLY/score.json",
+      "metadata_path": "models/workbuddy-hy4-preview/BY-F-APPLY/metadata.json"
+    },
+    {
+      "agent": "workbuddy-hy4-preview",
+      "name": "WorkBuddy + Hy4 preview",
+      "task_id": "TRY-F-02",
+      "question_id": "Q016",
+      "category": "planning_single",
+      "interval": [
+        57.5,
+        57.5
+      ],
+      "pending_nodes": [],
+      "answer_status": "completed",
+      "source_kind": "workbuddy_desktop_original_input",
+      "answer_sha256": "05e32f01fcd4f41d9decbb1ac17a775ccf63c30d7bcaaaebb71bc679d3fb53c9",
+      "public_answer_sha256": "4c7997f1f19bd93d3bd21c48e0e8a8fc92f54f1a52a58b837b320715972c2b50",
+      "answer_path": "models/workbuddy-hy4-preview/TRY-F-02/answer.md",
+      "score_path": "models/workbuddy-hy4-preview/TRY-F-02/score.json",
+      "metadata_path": "models/workbuddy-hy4-preview/TRY-F-02/metadata.json"
+    },
+    {
+      "agent": "workbuddy-hy4-preview",
+      "name": "WorkBuddy + Hy4 preview",
+      "task_id": "TRY-G-01",
+      "question_id": "Q017",
+      "category": "planning_single",
+      "interval": [
+        70.0,
+        70.0
+      ],
+      "pending_nodes": [],
+      "answer_status": "completed",
+      "source_kind": "workbuddy_desktop_original_input",
+      "answer_sha256": "bec285ff786125ff3075dd8687f8dcd11ad991ca3305ea7ac9ce8d23bc8672c6",
+      "public_answer_sha256": "0948b66177f25c6c9687897a676132161d1960ec16905578231806c520ceafce",
+      "answer_path": "models/workbuddy-hy4-preview/TRY-G-01/answer.md",
+      "score_path": "models/workbuddy-hy4-preview/TRY-G-01/score.json",
+      "metadata_path": "models/workbuddy-hy4-preview/TRY-G-01/metadata.json"
+    },
+    {
+      "agent": "workbuddy-hy4-preview",
+      "name": "WorkBuddy + Hy4 preview",
+      "task_id": "TRY-G-02",
+      "question_id": "Q018",
+      "category": "planning_single",
+      "interval": [
+        35.0,
+        35.0
+      ],
+      "pending_nodes": [],
+      "answer_status": "completed",
+      "source_kind": "workbuddy_desktop_original_input",
+      "answer_sha256": "d6c601daa25b64be51d62abfe9b78007fd871ccf979f4ab6e91db7c5b7da979f",
+      "public_answer_sha256": "ffa287536773e62d18e3ecc89baf99ad4a2b2b71b1dacea14c7b6c53b720d6c9",
+      "answer_path": "models/workbuddy-hy4-preview/TRY-G-02/answer.md",
+      "score_path": "models/workbuddy-hy4-preview/TRY-G-02/score.json",
+      "metadata_path": "models/workbuddy-hy4-preview/TRY-G-02/metadata.json"
+    },
+    {
+      "agent": "workbuddy-hy4-preview",
+      "name": "WorkBuddy + Hy4 preview",
+      "task_id": "BY-H-APPLY",
+      "question_id": "Q019",
+      "category": "recommendation_single",
+      "interval": [
+        41.13,
+        41.13
+      ],
+      "pending_nodes": [],
+      "answer_status": "completed",
+      "source_kind": "workbuddy_desktop_original_input",
+      "answer_sha256": "567fc5921174d18ed9574f0d0dc9c1f999ab5e751a7e21877ff11074c121bfa0",
+      "public_answer_sha256": "4ea24f1ab1cb709d31f691db29a436c708f7a8a97da1ecc5939d378948356748",
+      "answer_path": "models/workbuddy-hy4-preview/BY-H-APPLY/answer.md",
+      "score_path": "models/workbuddy-hy4-preview/BY-H-APPLY/score.json",
+      "metadata_path": "models/workbuddy-hy4-preview/BY-H-APPLY/metadata.json"
+    },
+    {
+      "agent": "workbuddy-hy4-preview",
+      "name": "WorkBuddy + Hy4 preview",
+      "task_id": "TRY-H-02",
+      "question_id": "Q020",
+      "category": "planning_single",
+      "interval": [
+        70.0,
+        70.0
+      ],
+      "pending_nodes": [],
+      "answer_status": "completed",
+      "source_kind": "workbuddy_desktop_original_input",
+      "answer_sha256": "9e2038b7338a3d67ddfd40dd7b51ae571fd99642e5b868cb32e3fe8c925fdc56",
+      "public_answer_sha256": "6b016547cea2870a8e36a0ad8c255e26c30e993853d1da333fbbaa0abafc4d61",
+      "answer_path": "models/workbuddy-hy4-preview/TRY-H-02/answer.md",
+      "score_path": "models/workbuddy-hy4-preview/TRY-H-02/score.json",
+      "metadata_path": "models/workbuddy-hy4-preview/TRY-H-02/metadata.json"
+    },
+    {
+      "agent": "workbuddy-hy4-preview",
+      "name": "WorkBuddy + Hy4 preview",
+      "task_id": "BY-G-APPLY",
+      "question_id": "Q021",
+      "category": "recommendation_single",
+      "interval": [
+        60.73,
+        60.73
+      ],
+      "pending_nodes": [],
+      "answer_status": "completed",
+      "source_kind": "workbuddy_desktop_original_input",
+      "answer_sha256": "720c530cf5c679d8dfd17d919eee7fb5bbb0b0ba01a3b7399721aec389a84e88",
+      "public_answer_sha256": "5939c8ffe265dec4f9de0c81c3f612cfaf52a3870dcd510ec948a16961c41bff",
+      "answer_path": "models/workbuddy-hy4-preview/BY-G-APPLY/answer.md",
+      "score_path": "models/workbuddy-hy4-preview/BY-G-APPLY/score.json",
+      "metadata_path": "models/workbuddy-hy4-preview/BY-G-APPLY/metadata.json"
+    },
+    {
+      "agent": "workbuddy-hy4-preview",
+      "name": "WorkBuddy + Hy4 preview",
+      "task_id": "BY-E-REPLAN",
+      "question_id": "Q023",
+      "category": "planning_single",
+      "interval": [
+        80.0,
+        80.0
+      ],
+      "pending_nodes": [],
+      "answer_status": "completed",
+      "source_kind": "workbuddy_desktop_original_input",
+      "answer_sha256": "a8d6c6d6bd82eba31e167c24791536ead449acac946c30fcfae4303ca6e4ace9",
+      "public_answer_sha256": "9ee9aafe0ce516a77da8f73e5cc7f452596a145114038809dfc688ff6cfe5148",
+      "answer_path": "models/workbuddy-hy4-preview/BY-E-REPLAN/answer.md",
+      "score_path": "models/workbuddy-hy4-preview/BY-E-REPLAN/score.json",
+      "metadata_path": "models/workbuddy-hy4-preview/BY-E-REPLAN/metadata.json"
+    },
+    {
+      "agent": "workbuddy-hy4-preview",
+      "name": "WorkBuddy + Hy4 preview",
+      "task_id": "BY-E-PREP",
+      "question_id": "Q024",
+      "category": "planning_single",
+      "interval": [
+        30.0,
+        30.0
+      ],
+      "pending_nodes": [],
+      "answer_status": "completed",
+      "source_kind": "workbuddy_desktop_original_input",
+      "answer_sha256": "40ea01afb9cfd0c0e0e14a538cf03ef2352e89a37784a9f790ad32569bc3ba0c",
+      "public_answer_sha256": "bc72f6a046ed9f4b0baad3b88071c0f7a2c834074a3ff412cb94d05a082a70ab",
+      "answer_path": "models/workbuddy-hy4-preview/BY-E-PREP/answer.md",
+      "score_path": "models/workbuddy-hy4-preview/BY-E-PREP/score.json",
+      "metadata_path": "models/workbuddy-hy4-preview/BY-E-PREP/metadata.json"
+    },
+    {
+      "agent": "workbuddy-hy4-preview",
+      "name": "WorkBuddy + Hy4 preview",
+      "task_id": "N01-01",
+      "question_id": "Q025",
+      "category": "planning_single",
+      "interval": [
+        42.5,
+        42.5
+      ],
+      "pending_nodes": [],
+      "answer_status": "completed",
+      "source_kind": "workbuddy_desktop_original_input",
+      "answer_sha256": "fc45916421be50ea1edc88c05a20bf047c1cf8d7e4b54b0b7c59a6e2e342876b",
+      "public_answer_sha256": "df03154a83d08608b090fcbbe384ed70a4e49d60862fb71b88122331c015b0fd",
+      "answer_path": "models/workbuddy-hy4-preview/N01-01/answer.md",
+      "score_path": "models/workbuddy-hy4-preview/N01-01/score.json",
+      "metadata_path": "models/workbuddy-hy4-preview/N01-01/metadata.json"
+    },
+    {
+      "agent": "workbuddy-hy4-preview",
+      "name": "WorkBuddy + Hy4 preview",
+      "task_id": "N01-03",
+      "question_id": "Q026",
+      "category": "recommendation_single",
+      "interval": [
+        52.18,
+        52.18
+      ],
+      "pending_nodes": [],
+      "answer_status": "completed",
+      "source_kind": "workbuddy_desktop_original_input",
+      "answer_sha256": "96c76caf306e23cde430d9d1a222ff86ae489a3d0d0696517f8d94a4e9cd5ef7",
+      "public_answer_sha256": "56b63b9eebd625f61d53a091c0325dba6d7e3f7f5ce48e51f4887c35e7bf495d",
+      "answer_path": "models/workbuddy-hy4-preview/N01-03/answer.md",
+      "score_path": "models/workbuddy-hy4-preview/N01-03/score.json",
+      "metadata_path": "models/workbuddy-hy4-preview/N01-03/metadata.json"
+    },
+    {
+      "agent": "workbuddy-hy4-preview",
+      "name": "WorkBuddy + Hy4 preview",
+      "task_id": "N02-01",
+      "question_id": "Q027",
+      "category": "planning_single",
+      "interval": [
+        87.5,
+        87.5
+      ],
+      "pending_nodes": [],
+      "answer_status": "completed",
+      "source_kind": "workbuddy_desktop_original_input",
+      "answer_sha256": "25b91465137c162c0d0476c9ef713e9e49773254662e5ae0a928b2e95ea1c55c",
+      "public_answer_sha256": "5bec945c577cfdfd50c521af278f07abb7f18f9556be36f89c219fc0ef761b08",
+      "answer_path": "models/workbuddy-hy4-preview/N02-01/answer.md",
+      "score_path": "models/workbuddy-hy4-preview/N02-01/score.json",
+      "metadata_path": "models/workbuddy-hy4-preview/N02-01/metadata.json"
+    },
+    {
+      "agent": "workbuddy-hy4-preview",
+      "name": "WorkBuddy + Hy4 preview",
+      "task_id": "N02-02",
+      "question_id": "Q028",
+      "category": "planning_single",
+      "interval": [
+        57.5,
+        57.5
+      ],
+      "pending_nodes": [],
+      "answer_status": "completed",
+      "source_kind": "workbuddy_desktop_original_input",
+      "answer_sha256": "647a835a1ed9fdd761d46a885b005028bf02b31e817ebb20bd2d6163ecb66f4b",
+      "public_answer_sha256": "496eee33777f195644952fb5a9310e5dfc55de59aa83c8d16889da0e4057f9d1",
+      "answer_path": "models/workbuddy-hy4-preview/N02-02/answer.md",
+      "score_path": "models/workbuddy-hy4-preview/N02-02/score.json",
+      "metadata_path": "models/workbuddy-hy4-preview/N02-02/metadata.json"
+    },
+    {
+      "agent": "workbuddy-hy4-preview",
+      "name": "WorkBuddy + Hy4 preview",
+      "task_id": "N02-03",
+      "question_id": "Q029",
+      "category": "planning_single",
+      "interval": [
+        45.0,
+        45.0
+      ],
+      "pending_nodes": [],
+      "answer_status": "completed",
+      "source_kind": "workbuddy_desktop_original_input",
+      "answer_sha256": "676774b2d6e1f2bfa3449865ee9790d4dcd31d98c4157131b2923abab8bd249d",
+      "public_answer_sha256": "29f744bb94710fdb61c5455601e978024cd1fbd4353b5a51e61c57693bf972b1",
+      "answer_path": "models/workbuddy-hy4-preview/N02-03/answer.md",
+      "score_path": "models/workbuddy-hy4-preview/N02-03/score.json",
+      "metadata_path": "models/workbuddy-hy4-preview/N02-03/metadata.json"
+    },
+    {
+      "agent": "workbuddy-hy4-preview",
+      "name": "WorkBuddy + Hy4 preview",
+      "task_id": "N03-01",
+      "question_id": "Q030",
+      "category": "planning_single",
+      "interval": [
+        50.0,
+        50.0
+      ],
+      "pending_nodes": [],
+      "answer_status": "completed",
+      "source_kind": "workbuddy_desktop_original_input",
+      "answer_sha256": "66fecb0c40f8b1ae377edc80aef536efd9e8bc6662b867a4b9a3482bbb089786",
+      "public_answer_sha256": "b677efed24a7f7c51c795d28ea76ccf8c47c4af8aca60e35e92d7a71bafe5b3b",
+      "answer_path": "models/workbuddy-hy4-preview/N03-01/answer.md",
+      "score_path": "models/workbuddy-hy4-preview/N03-01/score.json",
+      "metadata_path": "models/workbuddy-hy4-preview/N03-01/metadata.json"
+    },
+    {
+      "agent": "workbuddy-hy4-preview",
+      "name": "WorkBuddy + Hy4 preview",
+      "task_id": "N03-02",
+      "question_id": "Q031",
+      "category": "planning_single",
+      "interval": [
+        45.0,
+        45.0
+      ],
+      "pending_nodes": [],
+      "answer_status": "completed",
+      "source_kind": "workbuddy_desktop_original_input",
+      "answer_sha256": "70c719b2f036f82687a521fc076a416ad0ad863ee069ae51588f8f361c071aed",
+      "public_answer_sha256": "07eeb883d652c9383ad468f9dc49e1909ddb1fee9760f65c2f7a361264a74aac",
+      "answer_path": "models/workbuddy-hy4-preview/N03-02/answer.md",
+      "score_path": "models/workbuddy-hy4-preview/N03-02/score.json",
+      "metadata_path": "models/workbuddy-hy4-preview/N03-02/metadata.json"
+    },
+    {
+      "agent": "workbuddy-hy4-preview",
+      "name": "WorkBuddy + Hy4 preview",
+      "task_id": "N03-03",
+      "question_id": "Q032",
+      "category": "recommendation_single",
+      "interval": [
+        67.3,
+        67.3
+      ],
+      "pending_nodes": [],
+      "answer_status": "completed",
+      "source_kind": "workbuddy_desktop_original_input",
+      "answer_sha256": "6a1fe9a9642692036e9b44726b87c8432e9ed778e1963f25e8fb2123c5674ce6",
+      "public_answer_sha256": "cbd447ce93c28823fa7bb14f05447c1878b63de42e2662939af2da458f0abfa4",
+      "answer_path": "models/workbuddy-hy4-preview/N03-03/answer.md",
+      "score_path": "models/workbuddy-hy4-preview/N03-03/score.json",
+      "metadata_path": "models/workbuddy-hy4-preview/N03-03/metadata.json"
+    },
+    {
+      "agent": "workbuddy-hy4-preview",
+      "name": "WorkBuddy + Hy4 preview",
+      "task_id": "N04-01",
+      "question_id": "Q033",
+      "category": "planning_single",
+      "interval": [
+        86.0,
+        86.0
+      ],
+      "pending_nodes": [],
+      "answer_status": "completed",
+      "source_kind": "workbuddy_desktop_original_input",
+      "answer_sha256": "c652cfc59c7a31c56a4321d1901141f52b470aab160e5536fa4d38f2c146d77c",
+      "public_answer_sha256": "086cebc969eefefacb35376b3f9484cfc44c19cb6f3bde935730224e19a39838",
+      "answer_path": "models/workbuddy-hy4-preview/N04-01/answer.md",
+      "score_path": "models/workbuddy-hy4-preview/N04-01/score.json",
+      "metadata_path": "models/workbuddy-hy4-preview/N04-01/metadata.json"
+    },
+    {
+      "agent": "workbuddy-hy4-preview",
+      "name": "WorkBuddy + Hy4 preview",
+      "task_id": "N04-03",
+      "question_id": "Q034",
+      "category": "recommendation_single",
+      "interval": [
+        43.3,
+        43.3
+      ],
+      "pending_nodes": [],
+      "answer_status": "completed",
+      "source_kind": "workbuddy_desktop_original_input",
+      "answer_sha256": "013f5eb49a14b63137f564c3eee2164cb41bf1a797d777488092cddc7d05a7a7",
+      "public_answer_sha256": "e01409321fc79a1996a2f40bc33776702d46dd34b98bf9e9588c40c12f60e24a",
+      "answer_path": "models/workbuddy-hy4-preview/N04-03/answer.md",
+      "score_path": "models/workbuddy-hy4-preview/N04-03/score.json",
+      "metadata_path": "models/workbuddy-hy4-preview/N04-03/metadata.json"
+    },
+    {
+      "agent": "workbuddy-hy4-preview",
+      "name": "WorkBuddy + Hy4 preview",
+      "task_id": "N05-01",
+      "question_id": "Q035",
+      "category": "planning_single",
+      "interval": [
+        60.0,
+        60.0
+      ],
+      "pending_nodes": [],
+      "answer_status": "completed",
+      "source_kind": "workbuddy_desktop_original_input",
+      "answer_sha256": "4c2c63a782e8808633e7439b33da02a5424ee7c247e7db83f4a20c08da59b6b5",
+      "public_answer_sha256": "00d2bd0feab34eb178d86be9c2e1971cd7675db58be7632a2fe1d8e2f254799f",
+      "answer_path": "models/workbuddy-hy4-preview/N05-01/answer.md",
+      "score_path": "models/workbuddy-hy4-preview/N05-01/score.json",
+      "metadata_path": "models/workbuddy-hy4-preview/N05-01/metadata.json"
+    },
+    {
+      "agent": "workbuddy-hy4-preview",
+      "name": "WorkBuddy + Hy4 preview",
+      "task_id": "N05-03",
+      "question_id": "Q036",
+      "category": "recommendation_single",
+      "interval": [
+        58.67,
+        58.67
+      ],
+      "pending_nodes": [],
+      "answer_status": "completed",
+      "source_kind": "workbuddy_desktop_original_input",
+      "answer_sha256": "482109722ae1bc241bb858d0bb4d58b5c433a346e7109d93d6d5adf9bbfb7f34",
+      "public_answer_sha256": "73d9b52c5afc1976fec6abe7f411434be13a946cd2645fbb2f51b43820763078",
+      "answer_path": "models/workbuddy-hy4-preview/N05-03/answer.md",
+      "score_path": "models/workbuddy-hy4-preview/N05-03/score.json",
+      "metadata_path": "models/workbuddy-hy4-preview/N05-03/metadata.json"
+    },
+    {
+      "agent": "workbuddy-hy4-preview",
+      "name": "WorkBuddy + Hy4 preview",
+      "task_id": "N06-01",
+      "question_id": "Q037",
+      "category": "planning_single",
+      "interval": [
+        45.0,
+        45.0
+      ],
+      "pending_nodes": [],
+      "answer_status": "completed",
+      "source_kind": "workbuddy_desktop_original_input",
+      "answer_sha256": "11813635fd4eefb9b5a801b6854659d7daffff2dfc947a0d82aa3ac141905970",
+      "public_answer_sha256": "45a4f8b56b68e6191ad74c7d43eb35637db5d88d3fa4c755ec5b41951dd353a7",
+      "answer_path": "models/workbuddy-hy4-preview/N06-01/answer.md",
+      "score_path": "models/workbuddy-hy4-preview/N06-01/score.json",
+      "metadata_path": "models/workbuddy-hy4-preview/N06-01/metadata.json"
+    },
+    {
+      "agent": "workbuddy-hy4-preview",
+      "name": "WorkBuddy + Hy4 preview",
+      "task_id": "N06-02",
+      "question_id": "Q038",
+      "category": "planning_single",
+      "interval": [
+        92.5,
+        92.5
+      ],
+      "pending_nodes": [],
+      "answer_status": "completed",
+      "source_kind": "workbuddy_desktop_original_input",
+      "answer_sha256": "86d3726e8b2fbc1de0848246aba8a6af6443314915f4c2025a42ea3288630f6b",
+      "public_answer_sha256": "375ad90c590c13a44a2bf3eb257598e12ab7173635e93c4ce103fdcb706fe201",
+      "answer_path": "models/workbuddy-hy4-preview/N06-02/answer.md",
+      "score_path": "models/workbuddy-hy4-preview/N06-02/score.json",
+      "metadata_path": "models/workbuddy-hy4-preview/N06-02/metadata.json"
+    },
+    {
+      "agent": "workbuddy-hy4-preview",
+      "name": "WorkBuddy + Hy4 preview",
+      "task_id": "N06-03",
+      "question_id": "Q039",
+      "category": "recommendation_single",
+      "interval": [
+        28.88,
+        28.88
+      ],
+      "pending_nodes": [],
+      "answer_status": "completed",
+      "source_kind": "workbuddy_desktop_original_input",
+      "answer_sha256": "712a25409e7b8f7b3a6000d10b472f6b90ba81d1acaf03bed52159953402aafc",
+      "public_answer_sha256": "95011cc97e0767e65a3f3d272c5c9d20ae1b4e56aae0097d554141ea3135bacd",
+      "answer_path": "models/workbuddy-hy4-preview/N06-03/answer.md",
+      "score_path": "models/workbuddy-hy4-preview/N06-03/score.json",
+      "metadata_path": "models/workbuddy-hy4-preview/N06-03/metadata.json"
+    },
+    {
+      "agent": "workbuddy-hy4-preview",
+      "name": "WorkBuddy + Hy4 preview",
+      "task_id": "N08-01",
+      "question_id": "Q042",
+      "category": "planning_single",
+      "interval": [
+        50.0,
+        50.0
+      ],
+      "pending_nodes": [],
+      "answer_status": "completed",
+      "source_kind": "workbuddy_desktop_original_input",
+      "answer_sha256": "7f2ddc5ab4c63c1c547dca0954a48fd2a4f339decf699add62ad58e710d157da",
+      "public_answer_sha256": "f4a1808a29cf287f27b366f43125d826624778a05142d1beea8ff84805ef89aa",
+      "answer_path": "models/workbuddy-hy4-preview/N08-01/answer.md",
+      "score_path": "models/workbuddy-hy4-preview/N08-01/score.json",
+      "metadata_path": "models/workbuddy-hy4-preview/N08-01/metadata.json"
+    },
+    {
+      "agent": "workbuddy-hy4-preview",
+      "name": "WorkBuddy + Hy4 preview",
+      "task_id": "N08-03",
+      "question_id": "Q043",
+      "category": "recommendation_single",
+      "interval": [
+        27.35,
+        27.35
+      ],
+      "pending_nodes": [],
+      "answer_status": "completed",
+      "source_kind": "workbuddy_desktop_original_input",
+      "answer_sha256": "3de16a4d2755c806c99f828cb69c94490e46d8b3d60d7454162b981dc60d1014",
+      "public_answer_sha256": "3e98c0bcba3d11b05bbcb31297eef7f8610e0532b752bbaab6730b2e75c8ba5f",
+      "answer_path": "models/workbuddy-hy4-preview/N08-03/answer.md",
+      "score_path": "models/workbuddy-hy4-preview/N08-03/score.json",
+      "metadata_path": "models/workbuddy-hy4-preview/N08-03/metadata.json"
+    },
+    {
+      "agent": "workbuddy-hy4-preview",
+      "name": "WorkBuddy + Hy4 preview",
+      "task_id": "N09-01",
+      "question_id": "Q044",
+      "category": "planning_single",
+      "interval": [
+        73.5,
+        73.5
+      ],
+      "pending_nodes": [],
+      "answer_status": "completed",
+      "source_kind": "workbuddy_desktop_original_input",
+      "answer_sha256": "737729cf969a3b4f20b086cfde53ae6165df00e77f2efe2c923b9df677a5a7e0",
+      "public_answer_sha256": "819991f284cd715285e7c45932295474d707de5ca70895f0fd85543c0118ae0e",
+      "answer_path": "models/workbuddy-hy4-preview/N09-01/answer.md",
+      "score_path": "models/workbuddy-hy4-preview/N09-01/score.json",
+      "metadata_path": "models/workbuddy-hy4-preview/N09-01/metadata.json"
+    },
+    {
+      "agent": "workbuddy-hy4-preview",
+      "name": "WorkBuddy + Hy4 preview",
+      "task_id": "N09-03",
+      "question_id": "Q045",
+      "category": "recommendation_single",
+      "interval": [
+        58.74,
+        58.74
+      ],
+      "pending_nodes": [],
+      "answer_status": "completed",
+      "source_kind": "workbuddy_desktop_original_input",
+      "answer_sha256": "f561082a435d35bb3ed021a3a58eda52fad1677272c2a5381d6ea32caccde969",
+      "public_answer_sha256": "ee5105d19b8beabbb5ebc66579977e977d391c7b15cd54be1bcdd293cb58def1",
+      "answer_path": "models/workbuddy-hy4-preview/N09-03/answer.md",
+      "score_path": "models/workbuddy-hy4-preview/N09-03/score.json",
+      "metadata_path": "models/workbuddy-hy4-preview/N09-03/metadata.json"
+    },
+    {
+      "agent": "workbuddy-hy4-preview",
+      "name": "WorkBuddy + Hy4 preview",
+      "task_id": "N10-01",
+      "question_id": "Q046",
+      "category": "planning_single",
+      "interval": [
+        54.0,
+        54.0
+      ],
+      "pending_nodes": [],
+      "answer_status": "completed",
+      "source_kind": "workbuddy_desktop_original_input",
+      "answer_sha256": "d8412b1731516788ef99d3d74abb59492a26f83698f6c626cc91217b8bdbbcb9",
+      "public_answer_sha256": "2e9364059765f6a4f8e86963b9c615334eed2b088c6bc4c8808912f11fb9eb21",
+      "answer_path": "models/workbuddy-hy4-preview/N10-01/answer.md",
+      "score_path": "models/workbuddy-hy4-preview/N10-01/score.json",
+      "metadata_path": "models/workbuddy-hy4-preview/N10-01/metadata.json"
+    },
+    {
+      "agent": "workbuddy-hy4-preview",
+      "name": "WorkBuddy + Hy4 preview",
+      "task_id": "N10-02",
+      "question_id": "Q047",
+      "category": "planning_single",
+      "interval": [
+        70.0,
+        70.0
+      ],
+      "pending_nodes": [],
+      "answer_status": "completed",
+      "source_kind": "workbuddy_desktop_original_input",
+      "answer_sha256": "5919f110c41cd310989e6c0ecde25f0addaf16a0a67443f2cd0ca05c9bbb5837",
+      "public_answer_sha256": "c727237b6ab37e701d00857e9a3fcb09a517237c507e4ab25cc596dc8aba5037",
+      "answer_path": "models/workbuddy-hy4-preview/N10-02/answer.md",
+      "score_path": "models/workbuddy-hy4-preview/N10-02/score.json",
+      "metadata_path": "models/workbuddy-hy4-preview/N10-02/metadata.json"
+    },
+    {
+      "agent": "workbuddy-hy4-preview",
+      "name": "WorkBuddy + Hy4 preview",
+      "task_id": "N10-03",
+      "question_id": "Q048",
+      "category": "recommendation_single",
+      "interval": [
+        39.43,
+        39.43
+      ],
+      "pending_nodes": [],
+      "answer_status": "completed",
+      "source_kind": "workbuddy_desktop_original_input",
+      "answer_sha256": "9243a8a2740dca19e4cff8c954af58970d80625013f364269f2215b447b4b06b",
+      "public_answer_sha256": "1b1306d5da593d7071ff9eb588a3b91967c07265b522a624218920a3d6963741",
+      "answer_path": "models/workbuddy-hy4-preview/N10-03/answer.md",
+      "score_path": "models/workbuddy-hy4-preview/N10-03/score.json",
+      "metadata_path": "models/workbuddy-hy4-preview/N10-03/metadata.json"
+    },
+    {
+      "agent": "workbuddy-hy4-preview",
+      "name": "WorkBuddy + Hy4 preview",
+      "task_id": "N11-03",
+      "question_id": "Q049",
+      "category": "recommendation_single",
+      "interval": [
+        79.25,
+        79.25
+      ],
+      "pending_nodes": [],
+      "answer_status": "completed",
+      "source_kind": "workbuddy_desktop_original_input",
+      "answer_sha256": "87733cc505efabbdc6fb1006d2306492014ef54f5601b18493fb292b076d4a40",
+      "public_answer_sha256": "c94b8226a179ae8e873bb795d4296a060667cb43ebaceeda19536cad4ecb9377",
+      "answer_path": "models/workbuddy-hy4-preview/N11-03/answer.md",
+      "score_path": "models/workbuddy-hy4-preview/N11-03/score.json",
+      "metadata_path": "models/workbuddy-hy4-preview/N11-03/metadata.json"
+    },
+    {
+      "agent": "workbuddy-hy4-preview",
+      "name": "WorkBuddy + Hy4 preview",
+      "task_id": "N12-01",
+      "question_id": "Q050",
+      "category": "planning_single",
+      "interval": [
+        62.5,
+        62.5
+      ],
+      "pending_nodes": [],
+      "answer_status": "completed",
+      "source_kind": "workbuddy_desktop_original_input",
+      "answer_sha256": "dfb6d7936b1667099df8080383156f20b8b78e7a5b4fe2cb8579730898e77bc8",
+      "public_answer_sha256": "3de6ad508cb718ef97a21cd04c8b5fa2430e7bd6e79b515aeb4f9ee7ec9a825d",
+      "answer_path": "models/workbuddy-hy4-preview/N12-01/answer.md",
+      "score_path": "models/workbuddy-hy4-preview/N12-01/score.json",
+      "metadata_path": "models/workbuddy-hy4-preview/N12-01/metadata.json"
+    },
+    {
+      "agent": "workbuddy-hy4-preview",
+      "name": "WorkBuddy + Hy4 preview",
+      "task_id": "N12-03",
+      "question_id": "Q051",
+      "category": "recommendation_single",
+      "interval": [
+        38.5,
+        38.5
+      ],
+      "pending_nodes": [],
+      "answer_status": "completed",
+      "source_kind": "workbuddy_desktop_original_input",
+      "answer_sha256": "c5099e21e8121d20238c5a0fcb88e6da974ded8e3959482bfde2961292f6a7b6",
+      "public_answer_sha256": "ad3be72ae72f4e6e9f823ee573508d485d683a0a01960fdf297139069d3adbbf",
+      "answer_path": "models/workbuddy-hy4-preview/N12-03/answer.md",
+      "score_path": "models/workbuddy-hy4-preview/N12-03/score.json",
+      "metadata_path": "models/workbuddy-hy4-preview/N12-03/metadata.json"
+    },
+    {
+      "agent": "workbuddy-hy4-preview",
+      "name": "WorkBuddy + Hy4 preview",
+      "task_id": "N13-02",
+      "question_id": "Q052",
+      "category": "planning_single",
+      "interval": [
+        55.0,
+        55.0
+      ],
+      "pending_nodes": [],
+      "answer_status": "completed",
+      "source_kind": "workbuddy_desktop_original_input",
+      "answer_sha256": "b2249d3248b5b874b89a34363441bccf40aceaa1d952b7d9805d779ef1529a5d",
+      "public_answer_sha256": "c8b81693c84c128226057743747e367f68d0fa542cf3470f666af2e4802c288f",
+      "answer_path": "models/workbuddy-hy4-preview/N13-02/answer.md",
+      "score_path": "models/workbuddy-hy4-preview/N13-02/score.json",
+      "metadata_path": "models/workbuddy-hy4-preview/N13-02/metadata.json"
+    },
+    {
+      "agent": "workbuddy-hy4-preview",
+      "name": "WorkBuddy + Hy4 preview",
+      "task_id": "N13-03",
+      "question_id": "Q053",
+      "category": "recommendation_single",
+      "interval": [
+        30.81,
+        30.81
+      ],
+      "pending_nodes": [],
+      "answer_status": "completed",
+      "source_kind": "workbuddy_desktop_original_input",
+      "answer_sha256": "8ed1254ec41cdb613749a202ab54afaee23cbcb787706f7a35ab913ab8a7d551",
+      "public_answer_sha256": "87735194708581577d657ed92fa73293062af0d72a696f207096bcadfd32e5d0",
+      "answer_path": "models/workbuddy-hy4-preview/N13-03/answer.md",
+      "score_path": "models/workbuddy-hy4-preview/N13-03/score.json",
+      "metadata_path": "models/workbuddy-hy4-preview/N13-03/metadata.json"
+    },
+    {
+      "agent": "workbuddy-hy4-preview",
+      "name": "WorkBuddy + Hy4 preview",
+      "task_id": "N14-01",
+      "question_id": "Q054",
+      "category": "planning_single",
+      "interval": [
+        50.0,
+        50.0
+      ],
+      "pending_nodes": [],
+      "answer_status": "completed",
+      "source_kind": "workbuddy_desktop_original_input",
+      "answer_sha256": "3c2004c7b647942d2c075615f3b1884ac8c3bdf5d172107cf955e97d64b95aef",
+      "public_answer_sha256": "6f554f93876ba4bdc255e7586690e970dca50095ae59f3bd6d75857d3fe91c30",
+      "answer_path": "models/workbuddy-hy4-preview/N14-01/answer.md",
+      "score_path": "models/workbuddy-hy4-preview/N14-01/score.json",
+      "metadata_path": "models/workbuddy-hy4-preview/N14-01/metadata.json"
+    },
+    {
+      "agent": "workbuddy-hy4-preview",
+      "name": "WorkBuddy + Hy4 preview",
+      "task_id": "N14-02",
+      "question_id": "Q055",
+      "category": "planning_single",
+      "interval": [
+        67.5,
+        67.5
+      ],
+      "pending_nodes": [],
+      "answer_status": "completed",
+      "source_kind": "workbuddy_desktop_original_input",
+      "answer_sha256": "504a6a0c5e4a70db4e51c61b0c3c0c3af673264a73903f89fbda3056f90f70af",
+      "public_answer_sha256": "c1c35a81cd73c1079ae4bc87c35d3ae86d82216c5940413d1ce48933dbef4a16",
+      "answer_path": "models/workbuddy-hy4-preview/N14-02/answer.md",
+      "score_path": "models/workbuddy-hy4-preview/N14-02/score.json",
+      "metadata_path": "models/workbuddy-hy4-preview/N14-02/metadata.json"
+    },
+    {
+      "agent": "workbuddy-hy4-preview",
+      "name": "WorkBuddy + Hy4 preview",
+      "task_id": "N14-03",
+      "question_id": "Q056",
+      "category": "recommendation_single",
+      "interval": [
+        25.32,
+        25.32
+      ],
+      "pending_nodes": [],
+      "answer_status": "completed",
+      "source_kind": "workbuddy_desktop_original_input",
+      "answer_sha256": "87b62bf8f4e3babb2028dc2520498b389800ffae2e2856f60d7e2b1ca4549051",
+      "public_answer_sha256": "eee57c251e7620d06a40a0a1352755fb9da7d7174d07239fd8f41ab3eb98bf1e",
+      "answer_path": "models/workbuddy-hy4-preview/N14-03/answer.md",
+      "score_path": "models/workbuddy-hy4-preview/N14-03/score.json",
+      "metadata_path": "models/workbuddy-hy4-preview/N14-03/metadata.json"
+    },
+    {
+      "agent": "workbuddy-hy4-preview",
+      "name": "WorkBuddy + Hy4 preview",
+      "task_id": "N15-01",
+      "question_id": "Q057",
+      "category": "planning_single",
+      "interval": [
+        65.0,
+        65.0
+      ],
+      "pending_nodes": [],
+      "answer_status": "completed",
+      "source_kind": "workbuddy_desktop_original_input",
+      "answer_sha256": "60577931f9646381084fd49875f369831521a44c2069b5ea7581c0e8115ef6bf",
+      "public_answer_sha256": "c08c18246c3b84e8b14cfcc2ab3ff830a0c37a3c7eef4b9f2a73a2ae4443f785",
+      "answer_path": "models/workbuddy-hy4-preview/N15-01/answer.md",
+      "score_path": "models/workbuddy-hy4-preview/N15-01/score.json",
+      "metadata_path": "models/workbuddy-hy4-preview/N15-01/metadata.json"
+    },
+    {
+      "agent": "workbuddy-hy4-preview",
+      "name": "WorkBuddy + Hy4 preview",
+      "task_id": "N15-03",
+      "question_id": "Q058",
+      "category": "recommendation_single",
+      "interval": [
+        46.6,
+        46.6
+      ],
+      "pending_nodes": [],
+      "answer_status": "completed",
+      "source_kind": "workbuddy_desktop_original_input",
+      "answer_sha256": "239e4fa1a4f7f05e676737fa63842aba74e2cf6b864f8fa409aad4db3c85ac61",
+      "public_answer_sha256": "bfebf8ef5a72a1e13c2dac637e6777bede37cfe6a7bc73c88ce0ac3865775db8",
+      "answer_path": "models/workbuddy-hy4-preview/N15-03/answer.md",
+      "score_path": "models/workbuddy-hy4-preview/N15-03/score.json",
+      "metadata_path": "models/workbuddy-hy4-preview/N15-03/metadata.json"
+    },
+    {
+      "agent": "workbuddy-hy4-preview",
+      "name": "WorkBuddy + Hy4 preview",
+      "task_id": "N16-01",
+      "question_id": "Q059",
+      "category": "planning_single",
+      "interval": [
+        59.5,
+        59.5
+      ],
+      "pending_nodes": [],
+      "answer_status": "completed",
+      "source_kind": "workbuddy_desktop_original_input",
+      "answer_sha256": "fff2a1950fbe5019e98fac756c75ff9e37f2a17a47dea3c58b106efdb556ecf6",
+      "public_answer_sha256": "da4e9195dfc695839c66642ec1e1f044463efd67bf281c88aa89835587979924",
+      "answer_path": "models/workbuddy-hy4-preview/N16-01/answer.md",
+      "score_path": "models/workbuddy-hy4-preview/N16-01/score.json",
+      "metadata_path": "models/workbuddy-hy4-preview/N16-01/metadata.json"
+    },
+    {
+      "agent": "workbuddy-hy4-preview",
+      "name": "WorkBuddy + Hy4 preview",
+      "task_id": "N16-03",
+      "question_id": "Q060",
+      "category": "recommendation_single",
+      "interval": [
+        59.91,
+        59.91
+      ],
+      "pending_nodes": [],
+      "answer_status": "completed",
+      "source_kind": "workbuddy_desktop_original_input",
+      "answer_sha256": "2455135d141928ecc364d5c2893eaab1a3a70d444e57de8e4f831cb4d3f25440",
+      "public_answer_sha256": "18d90f5b74610163ff6324d0506913bc344c8e767dbc75421681b2bdaa54efd5",
+      "answer_path": "models/workbuddy-hy4-preview/N16-03/answer.md",
+      "score_path": "models/workbuddy-hy4-preview/N16-03/score.json",
+      "metadata_path": "models/workbuddy-hy4-preview/N16-03/metadata.json"
+    },
+    {
+      "agent": "workbuddy-hy4-preview",
+      "name": "WorkBuddy + Hy4 preview",
+      "task_id": "O08-02",
+      "question_id": "Q061",
+      "category": "planning_single",
+      "interval": [
+        75.0,
+        75.0
+      ],
+      "pending_nodes": [],
+      "answer_status": "completed",
+      "source_kind": "workbuddy_desktop_original_input",
+      "answer_sha256": "24ef653043695fbdc5c04ff786ceab9276cffe90d45e5dbcc0db9d2f5dd00a10",
+      "public_answer_sha256": "3d2323979826b93cb69bca0b109bf3f132324d5df7ba0670d3dcaf9c83bca738",
+      "answer_path": "models/workbuddy-hy4-preview/O08-02/answer.md",
+      "score_path": "models/workbuddy-hy4-preview/O08-02/score.json",
+      "metadata_path": "models/workbuddy-hy4-preview/O08-02/metadata.json"
+    },
+    {
+      "agent": "workbuddy-hy4-preview",
+      "name": "WorkBuddy + Hy4 preview",
+      "task_id": "N01-02",
+      "question_id": "Q062",
+      "category": "staged",
+      "interval": [
+        75.0,
+        75.0
+      ],
+      "pending_nodes": [],
+      "answer_status": "completed",
+      "source_kind": "workbuddy_desktop_original_input",
+      "answer_sha256": "4791cc66569e97ebc0e7da832c3b7784a82a93da25940b4c0b68d330f896fb70",
+      "public_answer_sha256": "dffda2ca4a61b81ae4c841b60ba7d4e02af7e2203a331cba30bdd6e53aeb7cf8",
+      "answer_path": "models/workbuddy-hy4-preview/N01-02/answer.md",
+      "score_path": "models/workbuddy-hy4-preview/N01-02/score.json",
+      "metadata_path": "models/workbuddy-hy4-preview/N01-02/metadata.json"
+    },
+    {
+      "agent": "workbuddy-hy4-preview",
+      "name": "WorkBuddy + Hy4 preview",
+      "task_id": "N04-02",
+      "question_id": "Q063",
+      "category": "staged",
+      "interval": [
+        77.0,
+        77.0
+      ],
+      "pending_nodes": [],
+      "answer_status": "completed",
+      "source_kind": "workbuddy_desktop_original_input",
+      "answer_sha256": "478e52f680e3c301836551a561b3ac135119792fd2143243065fa75b8be1e1ee",
+      "public_answer_sha256": "0f97338dc6f39dcf4651dee40b06fb2f054d0cd090d1749911ddd0219558c495",
+      "answer_path": "models/workbuddy-hy4-preview/N04-02/answer.md",
+      "score_path": "models/workbuddy-hy4-preview/N04-02/score.json",
+      "metadata_path": "models/workbuddy-hy4-preview/N04-02/metadata.json"
+    },
+    {
+      "agent": "workbuddy-hy4-preview",
+      "name": "WorkBuddy + Hy4 preview",
+      "task_id": "N05-02",
+      "question_id": "Q064",
+      "category": "staged",
+      "interval": [
+        70.0,
+        70.0
+      ],
+      "pending_nodes": [],
+      "answer_status": "completed",
+      "source_kind": "workbuddy_desktop_original_input",
+      "answer_sha256": "f08019e2a369c1bf9e9a8b299e44db7369bcff991f3948e7cdad84b239784d76",
+      "public_answer_sha256": "165cf690546fee230832973b4f7bbcde85684c978fc8fa76e9532223099333e3",
+      "answer_path": "models/workbuddy-hy4-preview/N05-02/answer.md",
+      "score_path": "models/workbuddy-hy4-preview/N05-02/score.json",
+      "metadata_path": "models/workbuddy-hy4-preview/N05-02/metadata.json"
+    },
+    {
+      "agent": "workbuddy-hy4-preview",
+      "name": "WorkBuddy + Hy4 preview",
+      "task_id": "N08-02",
+      "question_id": "Q066",
+      "category": "staged",
+      "interval": [
+        42.5,
+        42.5
+      ],
+      "pending_nodes": [],
+      "answer_status": "completed",
+      "source_kind": "workbuddy_desktop_original_input",
+      "answer_sha256": "a4895bccebe0019253a8796dc9a2a59eceaf861b07dc31bc76b74f1b2968226b",
+      "public_answer_sha256": "31ed2ac55fe702fcaa837fe8aaebb5dbcee73101d572869e6500d9d3a76dfc93",
+      "answer_path": "models/workbuddy-hy4-preview/N08-02/answer.md",
+      "score_path": "models/workbuddy-hy4-preview/N08-02/score.json",
+      "metadata_path": "models/workbuddy-hy4-preview/N08-02/metadata.json"
+    },
+    {
+      "agent": "workbuddy-hy4-preview",
+      "name": "WorkBuddy + Hy4 preview",
+      "task_id": "N09-02",
+      "question_id": "Q067",
+      "category": "staged",
+      "interval": [
+        85.0,
+        85.0
+      ],
+      "pending_nodes": [],
+      "answer_status": "completed",
+      "source_kind": "workbuddy_desktop_original_input",
+      "answer_sha256": "94358239839f8eb882343247f43622615e90229d0e1936cc8ba8d859d94c37bd",
+      "public_answer_sha256": "2c2ed548574d61b5fef95c96f821f3c5ddaee1a1874a5557d4d1b22dc43af976",
+      "answer_path": "models/workbuddy-hy4-preview/N09-02/answer.md",
+      "score_path": "models/workbuddy-hy4-preview/N09-02/score.json",
+      "metadata_path": "models/workbuddy-hy4-preview/N09-02/metadata.json"
+    },
+    {
+      "agent": "workbuddy-hy4-preview",
+      "name": "WorkBuddy + Hy4 preview",
+      "task_id": "N11-02",
+      "question_id": "Q068",
+      "category": "staged",
+      "interval": [
+        59.0,
+        59.0
+      ],
+      "pending_nodes": [],
+      "answer_status": "completed",
+      "source_kind": "workbuddy_desktop_original_input",
+      "answer_sha256": "561a8cc942b0922a04ab2d2754247b29ba9351530a9916d92f30b8f4f8fb2ae7",
+      "public_answer_sha256": "cd13f1016688ce57732ff01f9d963f3f2ff0b7246f6602dbd840d875c99a8013",
+      "answer_path": "models/workbuddy-hy4-preview/N11-02/answer.md",
+      "score_path": "models/workbuddy-hy4-preview/N11-02/score.json",
+      "metadata_path": "models/workbuddy-hy4-preview/N11-02/metadata.json"
+    },
+    {
+      "agent": "workbuddy-hy4-preview",
+      "name": "WorkBuddy + Hy4 preview",
+      "task_id": "N12-02",
+      "question_id": "Q069",
+      "category": "staged",
+      "interval": [
+        60.0,
+        60.0
+      ],
+      "pending_nodes": [],
+      "answer_status": "completed",
+      "source_kind": "workbuddy_desktop_original_input",
+      "answer_sha256": "9cd5f20d7b569cb60693b8f4ee6f177186b95c12aabb9c0066adcc0ac4e3fb1c",
+      "public_answer_sha256": "a4f62aa879e0dbda4d7fca438abb1e22943b3e15d31eecfc6c380447179afc7b",
+      "answer_path": "models/workbuddy-hy4-preview/N12-02/answer.md",
+      "score_path": "models/workbuddy-hy4-preview/N12-02/score.json",
+      "metadata_path": "models/workbuddy-hy4-preview/N12-02/metadata.json"
+    },
+    {
+      "agent": "workbuddy-hy4-preview",
+      "name": "WorkBuddy + Hy4 preview",
+      "task_id": "N15-02",
+      "question_id": "Q070",
+      "category": "staged",
+      "interval": [
+        67.5,
+        67.5
+      ],
+      "pending_nodes": [],
+      "answer_status": "completed",
+      "source_kind": "workbuddy_desktop_original_input",
+      "answer_sha256": "63b7e118b65ff321e1f79517f1f42a252eabc4e2996bfb8c83ead8ecab3d72be",
+      "public_answer_sha256": "edafc4b7e15ad72b3dde86730d403955ff166875132fc482fc808573c00a1d90",
+      "answer_path": "models/workbuddy-hy4-preview/N15-02/answer.md",
+      "score_path": "models/workbuddy-hy4-preview/N15-02/score.json",
+      "metadata_path": "models/workbuddy-hy4-preview/N15-02/metadata.json"
+    },
+    {
+      "agent": "workbuddy-hy4-preview",
+      "name": "WorkBuddy + Hy4 preview",
+      "task_id": "N16-02",
+      "question_id": "Q071",
+      "category": "staged",
+      "interval": [
+        60.0,
+        60.0
+      ],
+      "pending_nodes": [],
+      "answer_status": "completed",
+      "source_kind": "workbuddy_desktop_original_input",
+      "answer_sha256": "d9e15a9d2181ec4e1896f68254ef5202e91ea667c57f91bc8b451e1a0b592e52",
+      "public_answer_sha256": "66fb81333220d774a03d3b247264107928b688042c5dfa0dc7d628ea49f8a65f",
+      "answer_path": "models/workbuddy-hy4-preview/N16-02/answer.md",
+      "score_path": "models/workbuddy-hy4-preview/N16-02/score.json",
+      "metadata_path": "models/workbuddy-hy4-preview/N16-02/metadata.json"
+    },
+    {
+      "agent": "workbuddy-hy4-preview",
+      "name": "WorkBuddy + Hy4 preview",
+      "task_id": "O01-04",
+      "question_id": "Q072",
+      "category": "staged",
+      "interval": [
+        82.5,
+        82.5
+      ],
+      "pending_nodes": [],
+      "answer_status": "completed",
+      "source_kind": "workbuddy_desktop_original_input",
+      "answer_sha256": "1c4806a2c96dfbb576a7b752a1d910d80000b5b37f9fbf900adbb207b464a291",
+      "public_answer_sha256": "4e4e4cd9001272a25c5d775b99aa3a62a95efd1d7940ce971c5927be86ed2f6f",
+      "answer_path": "models/workbuddy-hy4-preview/O01-04/answer.md",
+      "score_path": "models/workbuddy-hy4-preview/O01-04/score.json",
+      "metadata_path": "models/workbuddy-hy4-preview/O01-04/metadata.json"
+    },
+    {
+      "agent": "workbuddy-hy4-preview",
+      "name": "WorkBuddy + Hy4 preview",
+      "task_id": "O03-04",
+      "question_id": "Q073",
+      "category": "staged",
+      "interval": [
+        82.5,
+        82.5
+      ],
+      "pending_nodes": [],
+      "answer_status": "completed",
+      "source_kind": "workbuddy_desktop_original_input",
+      "answer_sha256": "a6565652f1ab23849294e8f6ea8549558de92d6e2aaf72aed7039537da06a96b",
+      "public_answer_sha256": "fe3605a5dc5f3a4079dd32af39271384dcea97473b52fc9d15c95c9379932cdd",
+      "answer_path": "models/workbuddy-hy4-preview/O03-04/answer.md",
+      "score_path": "models/workbuddy-hy4-preview/O03-04/score.json",
+      "metadata_path": "models/workbuddy-hy4-preview/O03-04/metadata.json"
+    },
+    {
+      "agent": "workbuddy-hy4-preview",
+      "name": "WorkBuddy + Hy4 preview",
+      "task_id": "O04-04",
+      "question_id": "Q074",
+      "category": "staged",
+      "interval": [
+        82.5,
+        82.5
+      ],
+      "pending_nodes": [],
+      "answer_status": "completed",
+      "source_kind": "workbuddy_desktop_original_input",
+      "answer_sha256": "98a49ccf2cec57e7c634d5aafb627a5eb126dccce811b8cf020b987b24266e5b",
+      "public_answer_sha256": "046eb5e1e84e5dd2eb732c954a6a0e3c176d83f7d2196817e7e2ed66f4126364",
+      "answer_path": "models/workbuddy-hy4-preview/O04-04/answer.md",
+      "score_path": "models/workbuddy-hy4-preview/O04-04/score.json",
+      "metadata_path": "models/workbuddy-hy4-preview/O04-04/metadata.json"
+    },
+    {
+      "agent": "workbuddy-hy4-preview",
+      "name": "WorkBuddy + Hy4 preview",
+      "task_id": "O06-02",
+      "question_id": "Q075",
+      "category": "staged",
+      "interval": [
+        82.5,
+        82.5
+      ],
+      "pending_nodes": [],
+      "answer_status": "completed",
+      "source_kind": "workbuddy_desktop_original_input",
+      "answer_sha256": "2834cbaae96a3db51b8c471ddc655d7052c1108cecacedbb2abb4ca2ab094599",
+      "public_answer_sha256": "55deb7c6a23d5b58c92041833cac804bf9449a3a006d3c4b94d0abd9648ec65a",
+      "answer_path": "models/workbuddy-hy4-preview/O06-02/answer.md",
+      "score_path": "models/workbuddy-hy4-preview/O06-02/score.json",
+      "metadata_path": "models/workbuddy-hy4-preview/O06-02/metadata.json"
     }
   ],
   "evidence_adjudication_note": {

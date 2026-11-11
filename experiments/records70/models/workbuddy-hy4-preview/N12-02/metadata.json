@@ -1,0 +1,52 @@
+{
+  "task_id": "N12-02",
+  "question_id": "Q069",
+  "stage_count": 2,
+  "execution_status": "completed",
+  "score_status": "scored_draft",
+  "privacy_review_status": "display_copy_reviewed_with_limits",
+  "input_version": "original-1.0.1-private70",
+  "client_version_ui": "5.8.2",
+  "model_ui": "Hy4 preview",
+  "model_identity_verified": false,
+  "trajectory_status": "structured_trace_not_captured",
+  "isolation_verified": false,
+  "mode": "办公",
+  "permission_ui": "允许完全访问",
+  "new_conversation": true,
+  "memory": "unknown",
+  "web_search": "unknown",
+  "overlapping_runs": [
+    "N10-02",
+    "N12-01",
+    "N12-03",
+    "N04-02",
+    "N08-02",
+    "N09-02",
+    "N11-02"
+  ],
+  "stages": {
+    "S0": {
+      "status": "completed",
+      "completion_conversation_heading_verified": true,
+      "elapsed_ui": "2m40s",
+      "usage_ui": "8.08 (UI units; currency unverified)",
+      "client_version_ui": "5.8.2"
+    },
+    "S1": {
+      "status": "completed",
+      "completion_conversation_heading_verified": true,
+      "elapsed_ui": "2m5s",
+      "usage_ui": "8.49 (UI units; currency unverified)",
+      "client_version_ui": "5.8.3"
+    }
+  },
+  "schema": "selected-record-provenance.1",
+  "agent": "workbuddy-hy4-preview",
+  "source_kind": "workbuddy_desktop_original_input",
+  "score": 60.0,
+  "source_answer_sha256": "9cd5f20d7b569cb60693b8f4ee6f177186b95c12aabb9c0066adcc0ac4e3fb1c",
+  "public_answer_sha256": "a4f62aa879e0dbda4d7fca438abb1e22943b3e15d31eecfc6c380447179afc7b",
+  "answer_text_available": true,
+  "original_execution_time": null
+}

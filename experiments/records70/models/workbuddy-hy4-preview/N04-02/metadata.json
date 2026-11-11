@@ -1,0 +1,54 @@
+{
+  "task_id": "N04-02",
+  "question_id": "Q063",
+  "stage_count": 2,
+  "execution_status": "completed",
+  "score_status": "scored_draft",
+  "privacy_review_status": "display_copy_reviewed_with_limits",
+  "input_version": "original-1.0.1-private70",
+  "client_version_ui": "5.8.3",
+  "model_ui": "Hy4 preview",
+  "model_identity_verified": false,
+  "trajectory_status": "structured_trace_not_captured",
+  "isolation_verified": false,
+  "mode": "办公",
+  "permission_ui": "允许完全访问",
+  "new_conversation": true,
+  "memory": "unknown",
+  "web_search": "unknown",
+  "overlapping_runs": [
+    "N10-02",
+    "N11-03",
+    "N12-01",
+    "N05-02",
+    "N08-02",
+    "N09-02",
+    "N11-02"
+  ],
+  "retry_count": 2,
+  "retry_reason": "Previous S0 retry ended with explicit unknown-response error and no answer. Original prompt resubmitted in fresh conversation; model unchanged.",
+  "stages": {
+    "S0": {
+      "status": "completed",
+      "completion_conversation_heading_verified": true,
+      "elapsed_ui": "4m25s",
+      "usage_ui": "8.06 (UI units; currency unverified)",
+      "client_version_ui": "5.8.3"
+    },
+    "S1": {
+      "status": "completed",
+      "completion_conversation_heading_verified": true,
+      "elapsed_ui": "3m8s",
+      "usage_ui": "3.95 (UI units; currency unverified)",
+      "client_version_ui": "5.8.3"
+    }
+  },
+  "schema": "selected-record-provenance.1",
+  "agent": "workbuddy-hy4-preview",
+  "source_kind": "workbuddy_desktop_original_input",
+  "score": 77.0,
+  "source_answer_sha256": "478e52f680e3c301836551a561b3ac135119792fd2143243065fa75b8be1e1ee",
+  "public_answer_sha256": "0f97338dc6f39dcf4651dee40b06fb2f054d0cd090d1749911ddd0219558c495",
+  "answer_text_available": true,
+  "original_execution_time": null
+}

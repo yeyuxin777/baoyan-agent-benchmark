@@ -1,0 +1,280 @@
+{
+  "schema": "selected-score-row.1",
+  "task_id": "N12-03",
+  "question_id": "Q051",
+  "score_interval": [
+    38.5,
+    38.5
+  ],
+  "pending_nodes": [],
+  "answer_status": "completed",
+  "source_answer_sha256": "c5099e21e8121d20238c5a0fcb88e6da974ded8e3959482bfde2961292f6a7b6",
+  "source_kind": "workbuddy_desktop_original_input",
+  "scoring_evidence": "Independent evidence-review-v1; original judgments and replay evidence retained privately.",
+  "nodes": [
+    {
+      "id": "N12-01",
+      "kind": "coverage",
+      "status": "hit",
+      "points": 1.24,
+      "weight": {
+        "numerator": 70,
+        "denominator": 17
+      },
+      "match_level": "related_department",
+      "match_coefficient": 0.3,
+      "matched_answer_item_id": "A19",
+      "reviewed_status": "hit"
+    },
+    {
+      "id": "N12-02",
+      "kind": "coverage",
+      "status": "hit",
+      "points": 1.24,
+      "weight": {
+        "numerator": 70,
+        "denominator": 17
+      },
+      "match_level": "related_department",
+      "match_coefficient": 0.3,
+      "matched_answer_item_id": "A18",
+      "reviewed_status": "hit"
+    },
+    {
+      "id": "N12-03",
+      "kind": "coverage",
+      "status": "hit",
+      "points": 2.47,
+      "weight": {
+        "numerator": 70,
+        "denominator": 17
+      },
+      "match_level": "same_department",
+      "match_coefficient": 0.6,
+      "matched_answer_item_id": "A45",
+      "reviewed_status": "hit"
+    },
+    {
+      "id": "N12-04",
+      "kind": "coverage",
+      "status": "miss",
+      "points": 0,
+      "weight": {
+        "numerator": 70,
+        "denominator": 17
+      },
+      "match_level": null,
+      "match_coefficient": 0,
+      "matched_answer_item_id": null,
+      "reviewed_status": "miss"
+    },
+    {
+      "id": "N12-05",
+      "kind": "coverage",
+      "status": "hit",
+      "points": 2.47,
+      "weight": {
+        "numerator": 70,
+        "denominator": 17
+      },
+      "match_level": "same_department",
+      "match_coefficient": 0.6,
+      "matched_answer_item_id": "A10",
+      "reviewed_status": "hit"
+    },
+    {
+      "id": "N12-06",
+      "kind": "coverage",
+      "status": "miss",
+      "points": 0,
+      "weight": {
+        "numerator": 70,
+        "denominator": 17
+      },
+      "match_level": null,
+      "match_coefficient": 0,
+      "matched_answer_item_id": null,
+      "reviewed_status": "miss"
+    },
+    {
+      "id": "N12-07",
+      "kind": "coverage",
+      "status": "miss",
+      "points": 0,
+      "weight": {
+        "numerator": 70,
+        "denominator": 17
+      },
+      "match_level": null,
+      "match_coefficient": 0,
+      "matched_answer_item_id": null,
+      "reviewed_status": "miss"
+    },
+    {
+      "id": "N12-08",
+      "kind": "coverage",
+      "status": "hit",
+      "points": 4.12,
+      "weight": {
+        "numerator": 70,
+        "denominator": 17
+      },
+      "match_level": "exact",
+      "match_coefficient": 1.0,
+      "matched_answer_item_id": "A28",
+      "reviewed_status": "hit"
+    },
+    {
+      "id": "N12-09",
+      "kind": "coverage",
+      "status": "miss",
+      "points": 0,
+      "weight": {
+        "numerator": 70,
+        "denominator": 17
+      },
+      "match_level": null,
+      "match_coefficient": 0,
+      "matched_answer_item_id": null,
+      "reviewed_status": "miss"
+    },
+    {
+      "id": "N12-10",
+      "kind": "coverage",
+      "status": "miss",
+      "points": 0,
+      "weight": {
+        "numerator": 70,
+        "denominator": 17
+      },
+      "match_level": null,
+      "match_coefficient": 0,
+      "matched_answer_item_id": null,
+      "reviewed_status": "miss"
+    },
+    {
+      "id": "N12-11",
+      "kind": "coverage",
+      "status": "hit",
+      "points": 4.12,
+      "weight": {
+        "numerator": 70,
+        "denominator": 17
+      },
+      "match_level": "exact",
+      "match_coefficient": 1.0,
+      "matched_answer_item_id": "A32",
+      "reviewed_status": "hit"
+    },
+    {
+      "id": "N12-12",
+      "kind": "coverage",
+      "status": "miss",
+      "points": 0,
+      "weight": {
+        "numerator": 70,
+        "denominator": 17
+      },
+      "match_level": null,
+      "match_coefficient": 0,
+      "matched_answer_item_id": null,
+      "reviewed_status": "miss"
+    },
+    {
+      "id": "N12-13",
+      "kind": "coverage",
+      "status": "hit",
+      "points": 1.24,
+      "weight": {
+        "numerator": 70,
+        "denominator": 17
+      },
+      "match_level": "related_department",
+      "match_coefficient": 0.3,
+      "matched_answer_item_id": "A23",
+      "reviewed_status": "hit"
+    },
+    {
+      "id": "N12-14",
+      "kind": "coverage",
+      "status": "miss",
+      "points": 0,
+      "weight": {
+        "numerator": 70,
+        "denominator": 17
+      },
+      "match_level": null,
+      "match_coefficient": 0,
+      "matched_answer_item_id": null,
+      "reviewed_status": "miss"
+    },
+    {
+      "id": "N12-15",
+      "kind": "coverage",
+      "status": "miss",
+      "points": 0,
+      "weight": {
+        "numerator": 70,
+        "denominator": 17
+      },
+      "match_level": null,
+      "match_coefficient": 0,
+      "matched_answer_item_id": null,
+      "reviewed_status": "miss"
+    },
+    {
+      "id": "N12-16",
+      "kind": "coverage",
+      "status": "hit",
+      "points": 4.12,
+      "weight": {
+        "numerator": 70,
+        "denominator": 17
+      },
+      "match_level": "exact",
+      "match_coefficient": 1.0,
+      "matched_answer_item_id": "A36",
+      "reviewed_status": "hit"
+    },
+    {
+      "id": "N12-17",
+      "kind": "coverage",
+      "status": "miss",
+      "points": 0,
+      "weight": {
+        "numerator": 70,
+        "denominator": 17
+      },
+      "match_level": null,
+      "match_coefficient": 0,
+      "matched_answer_item_id": null,
+      "reviewed_status": "miss"
+    },
+    {
+      "id": "reasons",
+      "kind": "quality",
+      "grade": 0.5,
+      "points": 7.5
+    },
+    {
+      "id": "tier",
+      "kind": "quality",
+      "grade": 1,
+      "points": 5.0
+    },
+    {
+      "id": "execution",
+      "kind": "quality",
+      "grade": 1,
+      "points": 5.0
+    },
+    {
+      "id": "facts",
+      "kind": "quality",
+      "grade": 0,
+      "points": 0.0
+    }
+  ],
+  "judge_version": "evidence-review-v1",
+  "official": false
+}

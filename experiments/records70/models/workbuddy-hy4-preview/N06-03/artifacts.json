@@ -1,0 +1,8 @@
+{
+  "source_answer_sha256": "712a25409e7b8f7b3a6000d10b472f6b90ba81d1acaf03bed52159953402aafc",
+  "public_answer_sha256": "95011cc97e0767e65a3f3d272c5c9d20ae1b4e56aae0097d554141ea3135bacd",
+  "privacy_display_policy": "WorkBuddy task-specific display aligned to current public task; source-specific identifiers generalized or explicitly withheld",
+  "review_status": "task-specific display reviewed with limits; no global anonymity guarantee",
+  "score_status": "scored_draft",
+  "private_change_audit": "Line-level original/display diff retained privately; not included in public package"
+}
