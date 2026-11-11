@@ -2,7 +2,7 @@
   "question_count": 70,
   "points_per_question": 100,
   "maximum_total_score": 7000,
-  "generated_at": "2026-10-12T08:49:12+00:00",
+  "generated_at": "2026-11-11T11:21:29.498449+08:00",
   "official": false,
   "category_counts": {
     "planning_single": 36,
@@ -278,6 +278,58 @@
     },
     {
       "rank": 6,
+      "model": "WorkBuddy + Hy4 preview",
+      "question_count": 70,
+      "total_score_interval": [
+        4159.76,
+        4159.76
+      ],
+      "mean_score_interval": [
+        59.42514285714286,
+        59.42514285714286
+      ],
+      "categories": {
+        "planning_single": {
+          "question_count": 36,
+          "total_score_interval": [
+            2223.5,
+            2223.5
+          ],
+          "mean_score_interval": [
+            61.763888888888886,
+            61.763888888888886
+          ]
+        },
+        "recommendation_single": {
+          "question_count": 21,
+          "total_score_interval": [
+            1010.26,
+            1010.26
+          ],
+          "mean_score_interval": [
+            48.107619047619046,
+            48.107619047619046
+          ]
+        },
+        "staged": {
+          "question_count": 13,
+          "total_score_interval": [
+            926.0,
+            926.0
+          ],
+          "mean_score_interval": [
+            71.23076923076923,
+            71.23076923076923
+          ]
+        }
+      },
+      "completed_count": 70,
+      "timeout_count": 0,
+      "completion_rate": 1.0,
+      "pending_answer_count": 0
+    },
+    {
+      "rank": 7,
       "model": "Kimi K3",
       "question_count": 70,
       "total_score_interval": [
@@ -329,7 +381,7 @@
       "pending_answer_count": 0
     },
     {
-      "rank": 7,
+      "rank": 8,
       "model": "Gemini 3.8 Flash",
       "question_count": 70,
       "total_score_interval": [
@@ -381,7 +433,7 @@
       "pending_answer_count": 0
     },
     {
-      "rank": 8,
+      "rank": 9,
       "model": "Gemini 3.1 Pro",
       "question_count": 70,
       "total_score_interval": [
@@ -438,7 +490,7 @@
     "en": "Fixed 70-task denominator and lower-bound ordering; timeouts score zero and pending points remain intervals. Intervals cover recorded unresolved points; teacher calibration remains pending."
   },
   "evidence_adjudication_note": "Eleven Gemini quality nodes have source-bound rulings; all selected 70-task scores are now determinate.",
-  "selected_record_count": 560,
-  "answer_text_available_count": 443,
-  "new_result_answer_count": 124
+  "selected_record_count": 630,
+  "answer_text_available_count": 565,
+  "new_result_answer_count": 194
 }

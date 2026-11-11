@@ -1,10 +1,10 @@
 {
   "revision": "privacy-v16-public70-display.7",
   "layout": "model-task.1",
-  "selected_task_records": 560,
-  "answer_text_available_count": 495,
+  "selected_task_records": 630,
+  "answer_text_available_count": 565,
   "answer_text_unavailable_count": 65,
-  "new_cohort_selected_answers": 124,
+  "new_cohort_selected_answers": 194,
   "original_scores_models_times_preserved": true,
   "records": [
     {
@@ -25,11 +25,11 @@
     },
     {
       "path": "README.md",
-      "public_display_sha256": "2141568fc80a4563a2032c74aeafd92263f426e1475118d8e6945d3abf25577f"
+      "public_display_sha256": "d7b0cfc93eb22270b39a0d7cd5face5d5e1d087263604b3189253d5a12732660"
     },
     {
       "path": "README.zh-CN.md",
-      "public_display_sha256": "64b1d3d54df6e8361cfced833cb6a4acbc4c891b9c1994bd9acf420f5a74ddcd"
+      "public_display_sha256": "49ed24f3bce71d7301e6ca34d8e13356d0f13ec352fe1ae4291103518e5c3fca"
     },
     {
       "path": "benchmark/__init__.py",
@@ -933,7 +933,7 @@
     },
     {
       "path": "docs/figures/dev70-current/results-manifest.json",
-      "public_display_sha256": "1cc32a9dce7838d8b7b3ee78759c9220705b8e8771d4487722b28fe93a7da631"
+      "public_display_sha256": "e670a29c5824db2a880eb96b385bf773ea1604f55ef8ec4053386feb4044e965"
     },
     {
       "path": "docs/huggingface/CALIBRATION-STATUS.md",
@@ -977,7 +977,7 @@
     },
     {
       "path": "docs/result-methodology.md",
-      "public_display_sha256": "b5602e5561f4cc963015ca56dd255af4251e470452b5b0efa3d10eab252feab9"
+      "public_display_sha256": "8d6850b16f246927d16508e88f73e41ad48e9d4269ae2dd8aa3536b3daea841f"
     },
     {
       "path": "docs/review-protocol.md",
@@ -3677,7 +3677,7 @@
     },
     {
       "path": "experiments/records70/README.md",
-      "public_display_sha256": "c464eb1d6e2e6fce9dcc7d9a17a41a221c5131702b84251955a6aa3a11b36df3"
+      "public_display_sha256": "a7e62c3f3f84319e79b4d306d959cea0c092fe6230dc003befcff78fe890186c"
     },
     {
       "path": "experiments/records70/adjudication-ledger.json",
@@ -14677,11 +14677,11 @@
     },
     {
       "path": "experiments/records70/score-details-70.json",
-      "public_display_sha256": "b92438d070b3cd31f33dd31e81794962bb65507335cc541a8705946cf5b60d3a"
+      "public_display_sha256": "fb3b27648c01b6f7ac197fb9aef0b419bdb43f1bbe71e1ddf6cce9243a48f139"
     },
     {
       "path": "experiments/records70/score-summary-70.json",
-      "public_display_sha256": "a045408cefb68bf9f7ea0723ddcd2643fcfe9287a04de7ff3f7f7d1e79c97d89"
+      "public_display_sha256": "5640d73b259efab74318e93e531a5119dcb6b597518f26658fdbacb8a7861265"
     },
     {
       "path": "schemas/reproduction.schema.json",
@@ -14717,7 +14717,7 @@
     },
     {
       "path": "scripts/privacy_display.py",
-      "public_display_sha256": "3a5596f8d5b3443c0b36ed67858cec4520103486f1a548ecb17fded686a283ca"
+      "public_display_sha256": "be4abaa3c717e47c213ec070abf7e6d7d1987423229298e3ed2468719e4f1fa0"
     },
     {
       "path": "scripts/publication_evidence.py",
@@ -14733,11 +14733,11 @@
     },
     {
       "path": "scripts/render_answer_index.py",
-      "public_display_sha256": "41510ed8643a26fa013f76130d3714f42e99c9bdc9ee930162f7f0722c73186e"
+      "public_display_sha256": "600662bb90709320ee2d3cf59c0e51bbc1f5ea6b666280abb18a784a3cdfc5ed"
     },
     {
       "path": "scripts/render_current70_figures.py",
-      "public_display_sha256": "5722945ea2f0aecec98eb215fa9bd4fc9dbf22e8b747d83619b8abbc45a70402"
+      "public_display_sha256": "28d7a1327f03b14b5df0d6acd536fff5df594fce17a80795733943c6ca2ef8af"
     },
     {
       "path": "scripts/score_adjudication.py",
@@ -15310,9 +15310,1157 @@
     {
       "path": "experiments/records70/models/ark-glm-5-3-flash-260828/TRY-H-02/artifacts.json",
       "public_display_sha256": "e2e424603b84ab9aaef70520e18902905a15b8c2d1c0f49ff4690b79adebad7c"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/BY-A-APPLY/answer.md",
+      "public_display_sha256": "4c113c3e8974727f6916ad7d85b326bb53f7ec80ee91080a4a0d7a3cc58f2ac6"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/BY-A-APPLY/artifacts.json",
+      "public_display_sha256": "729a5b4e2ba9c6baa72a8ecc51e3a318e627eea922778d8115bf7a747c9d5f76"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/BY-A-APPLY/metadata.json",
+      "public_display_sha256": "3656fefc0a823fd6a995034440e4c81797c37452579d461ae7d89888a9eb64c5"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/BY-A-APPLY/score.json",
+      "public_display_sha256": "52af046963393650161746386e7a02990ff3c34692de2f89625042196820db15"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/BY-A-PLAN/answer.md",
+      "public_display_sha256": "e107592697a14d106111761fe6e27eab042945388fc7ed6293d675e2abab3217"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/BY-A-PLAN/artifacts.json",
+      "public_display_sha256": "701590e19c8b6b5c8769eeedff143f018b248809faa0c9a55c07f04ea5cd374b"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/BY-A-PLAN/metadata.json",
+      "public_display_sha256": "1171be9f661bcac7cc944b77d80f749c03816422e7be61ed868c5ad1ec8c590e"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/BY-A-PLAN/score.json",
+      "public_display_sha256": "5fe0e9fd63df496e854632f6e11ee3b246e08a2bca9a336feee1c65f407543b7"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/BY-B-APPLY/answer.md",
+      "public_display_sha256": "4e574d1e5a07044c4005ab9744dd0dd45df4210205bcb43599754ee9d6a70890"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/BY-B-APPLY/artifacts.json",
+      "public_display_sha256": "56a71fabf87be81ef9587928d29cfc9634e93f5c29fb168c84137da5d4abedc0"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/BY-B-APPLY/metadata.json",
+      "public_display_sha256": "a084c52e01182b46fd65e0f575dde850432829e1b39f23b98bc967cd8fbc1589"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/BY-B-APPLY/score.json",
+      "public_display_sha256": "7a25b6001c3e311c75537195ea410a65397f4dca0e0419775b970dae863045e2"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/BY-C-APPLY/answer.md",
+      "public_display_sha256": "1d6c34ca43f33bb323aa9b4c916983abd25dfc73bae4c749932a734aece2458a"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/BY-C-APPLY/artifacts.json",
+      "public_display_sha256": "13c5dc43ca2b83952cf051aed9b16323b1ffa5702a331f8a196a8ec12e42b300"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/BY-C-APPLY/metadata.json",
+      "public_display_sha256": "fede05aef88070eea06896259efbebbe5601dd95e56b3e219fd2ddd90bc1d878"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/BY-C-APPLY/score.json",
+      "public_display_sha256": "df94ae61e87be85d337e4f6ba6b33d194b9a33aa90da754209cd4e7a2a8739c1"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/BY-C-WINTER/answer.md",
+      "public_display_sha256": "3bd6db4390cd9206386842cfbe0ba1c754e8d9b164147f50d9ff38773d92bdaf"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/BY-C-WINTER/artifacts.json",
+      "public_display_sha256": "b7ddde9940c80c21a33f5a5d26474428d5681f69a2e7255c506124d9ba6b08b0"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/BY-C-WINTER/metadata.json",
+      "public_display_sha256": "277a62c56048082d99f5fa8c0fe677f4a5a04e010a900377b685a55ead25115c"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/BY-C-WINTER/score.json",
+      "public_display_sha256": "8a0621ffbf1a12d7c4eb5eed2a123500dad7442eec3982132f41cfc6e25b3086"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/BY-E-APPLY/answer.md",
+      "public_display_sha256": "fa3a2c2d97b582c1a8078c180c7a1e224bfbbaa35efa7816a1ee94261e8e028d"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/BY-E-APPLY/artifacts.json",
+      "public_display_sha256": "e581aa3439144899a6ac8a4630aa5693dcb49b0c647548a947e66ed64bc1c2b2"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/BY-E-APPLY/metadata.json",
+      "public_display_sha256": "8a00a4286a17d0924a5f8a6e97e41f2f7854a1810a969b07f5d49347d5dde7b8"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/BY-E-APPLY/score.json",
+      "public_display_sha256": "a9916618569ab5808362829372cf42058c3bd9f45939dd85cc2688e5b5bb81ea"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/BY-E-PREP/answer.md",
+      "public_display_sha256": "bc72f6a046ed9f4b0baad3b88071c0f7a2c834074a3ff412cb94d05a082a70ab"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/BY-E-PREP/artifacts.json",
+      "public_display_sha256": "77525aeb475ea2ca1d3b5c3ffb3fdc99468a60760af0c87a49f84aacc1ed80ce"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/BY-E-PREP/metadata.json",
+      "public_display_sha256": "a4240d1e66618759edd59982d767d7c616889de3808899135a77d368fcebe691"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/BY-E-PREP/score.json",
+      "public_display_sha256": "323b068ef9700b6e30c71e28e4c0731f5d29f6577352bd8cc172a8abaeb13e7c"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/BY-E-REPLAN/answer.md",
+      "public_display_sha256": "9ee9aafe0ce516a77da8f73e5cc7f452596a145114038809dfc688ff6cfe5148"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/BY-E-REPLAN/artifacts.json",
+      "public_display_sha256": "5d6e00637be75acd58a97169bde450ba19497482dd91584173d4f6a28f228c86"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/BY-E-REPLAN/metadata.json",
+      "public_display_sha256": "bf0595fcf47fef6042a8bf08fc6a5de0d34cf39c8f5c54184c714d505e478148"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/BY-E-REPLAN/score.json",
+      "public_display_sha256": "97168f74a419fdc502534563557a5a059aa3c13b5f3e51553001adad0024b8f6"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/BY-F-APPLY/answer.md",
+      "public_display_sha256": "3324920933965f3bbd8aed72dc19b5c2e6691bd55234199ede9552bdd5a74dfb"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/BY-F-APPLY/artifacts.json",
+      "public_display_sha256": "bb097679057d22547d92ef0d5690cadf498dcae8843a9adc53023dbd26322dea"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/BY-F-APPLY/metadata.json",
+      "public_display_sha256": "da26265a5812869d1386ad08d13917b1fee99da83c5ad3a9b2d48d4c2827f9ac"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/BY-F-APPLY/score.json",
+      "public_display_sha256": "4cb63dd097445494cca50bc1127f0e98d2a1e09502f361fccaee4fa7250a8511"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/BY-G-APPLY/answer.md",
+      "public_display_sha256": "5939c8ffe265dec4f9de0c81c3f612cfaf52a3870dcd510ec948a16961c41bff"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/BY-G-APPLY/artifacts.json",
+      "public_display_sha256": "991f1caee7bf3027c6a19262d65cbcf3bc7401bb111e16b28bfed9849be84cc7"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/BY-G-APPLY/metadata.json",
+      "public_display_sha256": "d416bbea605b886804684c9b7cde7ef9dfa0dd01e9a3230911cf9e4aeee9c11c"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/BY-G-APPLY/score.json",
+      "public_display_sha256": "e154654bb9a1db34b83bfcd15f7a0b621a50c982b04dfa46aa5175d7781a5b9b"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/BY-H-APPLY/answer.md",
+      "public_display_sha256": "4ea24f1ab1cb709d31f691db29a436c708f7a8a97da1ecc5939d378948356748"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/BY-H-APPLY/artifacts.json",
+      "public_display_sha256": "6352e4efd864220b306e6527ecc77e1425f89ddbb5382c59f64df68e05452393"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/BY-H-APPLY/metadata.json",
+      "public_display_sha256": "cf368cf11015b0cb646f057d2070a302efc10fe97fce1624cce2b83c7f39d9ce"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/BY-H-APPLY/score.json",
+      "public_display_sha256": "ad4c0ae888dac84a702b351d6734cb8366db3f9d6234338cad7d978d6d817abf"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N01-01/answer.md",
+      "public_display_sha256": "df03154a83d08608b090fcbbe384ed70a4e49d60862fb71b88122331c015b0fd"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N01-01/artifacts.json",
+      "public_display_sha256": "50990e49fc83a1b413928325e709c2054eb9fbe56132c8ef98b39fddf8634ee7"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N01-01/metadata.json",
+      "public_display_sha256": "e21c9d8d62d6bcc59d01b3308c7122e4a151ac592a4d96591eb83595e3faad3a"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N01-01/score.json",
+      "public_display_sha256": "4b35973c7678c51c0c39dfc212b49d6851a28cb90ec70dae7cb7d5355e434355"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N01-02/answer.md",
+      "public_display_sha256": "dffda2ca4a61b81ae4c841b60ba7d4e02af7e2203a331cba30bdd6e53aeb7cf8"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N01-02/artifacts.json",
+      "public_display_sha256": "d8b62b058f3e57070abfa3c44d45bcce5136fabc67762337bc44002086935d04"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N01-02/metadata.json",
+      "public_display_sha256": "d3bc82d824950c51c10cfe64a11fc87dd916f32b77bd6d72213b559cbc2ec064"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N01-02/score.json",
+      "public_display_sha256": "7d4533e6f948030c80ff49affaf4c27e44e62fc352e1da87d8059d4b01670c79"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N01-03/answer.md",
+      "public_display_sha256": "56b63b9eebd625f61d53a091c0325dba6d7e3f7f5ce48e51f4887c35e7bf495d"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N01-03/artifacts.json",
+      "public_display_sha256": "cae79dd1209c4de9ea9c1dbc9aed4a68e7b6a21f5fc1750ffe703d81077cadb8"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N01-03/metadata.json",
+      "public_display_sha256": "03ad3bf8cc80760a79e0b7445cfcc4fdbc9c77db84de2804ae824f3fd1df3c77"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N01-03/score.json",
+      "public_display_sha256": "a8be4dba1ac0747cda3ebc3c8a74c49bec773f74db33331e108d555947734416"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N02-01/answer.md",
+      "public_display_sha256": "5bec945c577cfdfd50c521af278f07abb7f18f9556be36f89c219fc0ef761b08"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N02-01/artifacts.json",
+      "public_display_sha256": "a746622f41789383a399ca7073b4c8ab9bd4a968d9359bad5776f201e51fd578"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N02-01/metadata.json",
+      "public_display_sha256": "ad9158f5ecb5678b149157dff413b3344bdde5b6b988d1667e13dde16e75131c"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N02-01/score.json",
+      "public_display_sha256": "5d6b7b51b57bcea11ec4c383709c6d77a149d527a60d5e38407980faa67eead9"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N02-02/answer.md",
+      "public_display_sha256": "496eee33777f195644952fb5a9310e5dfc55de59aa83c8d16889da0e4057f9d1"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N02-02/artifacts.json",
+      "public_display_sha256": "0e70bcfaab9daef4af1a6e04d5b39e645b5bf155bdfb63446ee48cb287733d92"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N02-02/metadata.json",
+      "public_display_sha256": "bb29f49010b478bebf104b8839ab973ee0cbf1e96ff21bd149c58ddd53240f23"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N02-02/score.json",
+      "public_display_sha256": "0e4c11876aa03e5bbf75bcf34f60b6f88c32bd7f39d07be58138f17f8db4207b"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N02-03/answer.md",
+      "public_display_sha256": "29f744bb94710fdb61c5455601e978024cd1fbd4353b5a51e61c57693bf972b1"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N02-03/artifacts.json",
+      "public_display_sha256": "6127acf9a3e8a8770387a6e05473b4201d3441a3864a66d9e4d11c71a1e14f79"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N02-03/metadata.json",
+      "public_display_sha256": "2297e11f81d5457a1c10600e916b68c45406e8c213e37ed98cde7a69efc66b2c"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N02-03/score.json",
+      "public_display_sha256": "c618bafcdafed264a38d87f09fb5b1d7c4cccf7d0cae15b74cd68d054a440861"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N03-01/answer.md",
+      "public_display_sha256": "b677efed24a7f7c51c795d28ea76ccf8c47c4af8aca60e35e92d7a71bafe5b3b"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N03-01/artifacts.json",
+      "public_display_sha256": "bbea59ad0c772bfccf5bcf17db5d2de9b310953d1c2eb0c6b79cc4c9e0c9ec9a"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N03-01/metadata.json",
+      "public_display_sha256": "3f2a5fa4710c82202f4cdb093b7e410ab7908f3fdfa2351bae288443fabb9553"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N03-01/score.json",
+      "public_display_sha256": "165ea268e17dc2c70689cb613c437f605ea851229965013961e00aca4acd5b90"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N03-02/answer.md",
+      "public_display_sha256": "07eeb883d652c9383ad468f9dc49e1909ddb1fee9760f65c2f7a361264a74aac"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N03-02/artifacts.json",
+      "public_display_sha256": "8bdbe2c8b12b3153eae8b2a658a5806f83e047abcde6b8b5ff2e22b7f05c6d1f"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N03-02/metadata.json",
+      "public_display_sha256": "7d94800c1c8908c1af09635254cf7fa57aaef487827baecfc59a51bde5acd092"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N03-02/score.json",
+      "public_display_sha256": "7c0ce66b0f5a7ac5c2c77529a6c0b46a8634f53668da8aa82594cfef477b1516"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N03-03/answer.md",
+      "public_display_sha256": "cbd447ce93c28823fa7bb14f05447c1878b63de42e2662939af2da458f0abfa4"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N03-03/artifacts.json",
+      "public_display_sha256": "10110ac51e902e094b68b9fee563f5bc42e1a10c84a74fda8464eac11fd82980"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N03-03/metadata.json",
+      "public_display_sha256": "bb907b0e2bb60d8cb03ebe182bd9f6ef80d648a82cbc7d14b08f375b277e30c2"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N03-03/score.json",
+      "public_display_sha256": "0f1ed5ff496fbdc115287d6ca25bc96dcd024ed7862c2a24b4107390ca31962f"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N04-01/answer.md",
+      "public_display_sha256": "086cebc969eefefacb35376b3f9484cfc44c19cb6f3bde935730224e19a39838"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N04-01/artifacts.json",
+      "public_display_sha256": "f7bdf5f0eb30754cbe695a5ae195bf65dd884c5aef61f9e876dcc110d84dbe68"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N04-01/metadata.json",
+      "public_display_sha256": "da347c6d238e12088f5a52e860f2a3ba0ddac601a8f9d0679a9ff524176510ce"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N04-01/score.json",
+      "public_display_sha256": "92a0b1b3845e80b803c64c533936bc870fc82968112252b7ce5633394181a463"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N04-02/answer.md",
+      "public_display_sha256": "0f97338dc6f39dcf4651dee40b06fb2f054d0cd090d1749911ddd0219558c495"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N04-02/artifacts.json",
+      "public_display_sha256": "7f0b347c78875c6b1af55f17ef9250f1f59b4cc80c6c1e04decaf6f438756ace"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N04-02/metadata.json",
+      "public_display_sha256": "9b25484b158d7ce643d9fd475834cfcea48b57baa893d5d32ecffffa5485b623"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N04-02/score.json",
+      "public_display_sha256": "dd7249a6b736fbcffadf4634b00f05e6006061b3bf24dec5bcb855e38920e9b1"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N04-03/answer.md",
+      "public_display_sha256": "e01409321fc79a1996a2f40bc33776702d46dd34b98bf9e9588c40c12f60e24a"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N04-03/artifacts.json",
+      "public_display_sha256": "607505d209bc2400a2a533b2ce04edc8601089d81243c7e617971e3cf124bc88"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N04-03/metadata.json",
+      "public_display_sha256": "f4e2fed1bc343173130fa6840db9523299fd6b1d81f2dd8e29b53a1e50bfd5f4"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N04-03/score.json",
+      "public_display_sha256": "d99a7cd06e40b9b459b8af64b911bb747e06e4a9f0d7389fd764b0dbef543b64"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N05-01/answer.md",
+      "public_display_sha256": "00d2bd0feab34eb178d86be9c2e1971cd7675db58be7632a2fe1d8e2f254799f"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N05-01/artifacts.json",
+      "public_display_sha256": "a57569ffd2fa3fbf402c8eb157fc7787925052d8c7d9311d2c96b5d60200b364"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N05-01/metadata.json",
+      "public_display_sha256": "9d9fdc78724bf310af08c7b5672a8785931b886df676fafec37556af082eec38"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N05-01/score.json",
+      "public_display_sha256": "235fbba310d9b5f0fbe3fffa45b724b4f27627e9e57f8ecc0c9cf23bf946b21f"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N05-02/answer.md",
+      "public_display_sha256": "165cf690546fee230832973b4f7bbcde85684c978fc8fa76e9532223099333e3"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N05-02/artifacts.json",
+      "public_display_sha256": "c339830529fc0f6fb5fe6ac9b21210dfdad434f62d686eefa8e6d504d3ad8ec5"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N05-02/metadata.json",
+      "public_display_sha256": "90df64fd58f4936008b17f9b47acc4131833d7b15d1d892c71dc241713f022d8"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N05-02/score.json",
+      "public_display_sha256": "b8e5c403164418135ce7472003b8ee37abf2a7185fc402e89206ad00952dc42f"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N05-03/answer.md",
+      "public_display_sha256": "73d9b52c5afc1976fec6abe7f411434be13a946cd2645fbb2f51b43820763078"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N05-03/artifacts.json",
+      "public_display_sha256": "e1ca06658e68fe3f25098b0b5587d45570a65a9f6268d9a9cf572fc90f50c908"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N05-03/metadata.json",
+      "public_display_sha256": "b7616c0c9aca2aaa4beab77d9cb3c35d699772052b213b2bae6632c0c2dfad95"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N05-03/score.json",
+      "public_display_sha256": "422997ccd795368329a579e2c5f958d19622197c13ea912012504464d84a5597"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N06-01/answer.md",
+      "public_display_sha256": "45a4f8b56b68e6191ad74c7d43eb35637db5d88d3fa4c755ec5b41951dd353a7"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N06-01/artifacts.json",
+      "public_display_sha256": "0a43d61e12520ec5965df19119183ab01c5f52818e46185fde9a397420170611"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N06-01/metadata.json",
+      "public_display_sha256": "a18436df0523e2aa2bbe1fad546d042b1496ffb0524582ab8ca52512d7171490"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N06-01/score.json",
+      "public_display_sha256": "b634d3c81e17b069485a6e9b773206d2c80ec76bd48d1d85f455e476559f616e"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N06-02/answer.md",
+      "public_display_sha256": "375ad90c590c13a44a2bf3eb257598e12ab7173635e93c4ce103fdcb706fe201"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N06-02/artifacts.json",
+      "public_display_sha256": "3865017dcede940a91588094c9f883000a05bacd2ca7d17ff1cb7d509a6996aa"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N06-02/metadata.json",
+      "public_display_sha256": "f9bef27e50dae34621f058f6e8eabfe4649054aa6526d7195c9508840da585b6"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N06-02/score.json",
+      "public_display_sha256": "4c55e368327d07ccf6d1a8ea73360bb2965fa75e2039f8386e3132e699811bd4"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N06-03/answer.md",
+      "public_display_sha256": "95011cc97e0767e65a3f3d272c5c9d20ae1b4e56aae0097d554141ea3135bacd"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N06-03/artifacts.json",
+      "public_display_sha256": "1b4dc74dbd76bc34e4df18fac31d28ed2cc95c78a6eb25cf1925fc5829822480"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N06-03/metadata.json",
+      "public_display_sha256": "053100d536d8a9b2c7be28d2bdea2084ebbef431cd3a8a845d7c3cc00c16617f"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N06-03/score.json",
+      "public_display_sha256": "c8dd08d8b2a82802de95dfb9029725a3940e0642cdb44058e79ed7d1330bb22b"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N08-01/answer.md",
+      "public_display_sha256": "f4a1808a29cf287f27b366f43125d826624778a05142d1beea8ff84805ef89aa"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N08-01/artifacts.json",
+      "public_display_sha256": "ccb2292c5d42205835960a75216bfd9c3f5d0f7bc7ade46ee6dec7a8a2150e4c"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N08-01/metadata.json",
+      "public_display_sha256": "f078b4dd226e0e3e4c6498b58ac81705f920f6e7b27e75012841f116075016fb"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N08-01/score.json",
+      "public_display_sha256": "f8da61541ae96089d22df7690812d62425f381fe1ee05b46b886e86f4fe4d457"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N08-02/answer.md",
+      "public_display_sha256": "31ed2ac55fe702fcaa837fe8aaebb5dbcee73101d572869e6500d9d3a76dfc93"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N08-02/artifacts.json",
+      "public_display_sha256": "84325b9ae86073908e699478cdf53af6504801c59e3873e8063bee06d28074a0"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N08-02/metadata.json",
+      "public_display_sha256": "1955f9d995e7e3f5c81b704a5925d44246715e4724b9f60f510e96bbb0520e49"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N08-02/score.json",
+      "public_display_sha256": "745e277caa49454c557c73fd32022b4857feb83d3f1a28fa43f978f703e114fc"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N08-03/answer.md",
+      "public_display_sha256": "3e98c0bcba3d11b05bbcb31297eef7f8610e0532b752bbaab6730b2e75c8ba5f"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N08-03/artifacts.json",
+      "public_display_sha256": "33471a3b92ed3a101e1e004fbf899b5ac8d776b6f343822212366d5fcefe33c7"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N08-03/metadata.json",
+      "public_display_sha256": "6014183bf0434a95e30e679fe266dea0e958abbc6e28f6d84a7c0e8b1a048420"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N08-03/score.json",
+      "public_display_sha256": "5580bff8d62cce6102b401f0a3e98b50ae2f0adf32f46329513813937d9c40fa"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N09-01/answer.md",
+      "public_display_sha256": "819991f284cd715285e7c45932295474d707de5ca70895f0fd85543c0118ae0e"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N09-01/artifacts.json",
+      "public_display_sha256": "e14eaf1494dd0798ea36526a07f7ed62cce713e625506dac0206b374576b5175"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N09-01/metadata.json",
+      "public_display_sha256": "6a8817e7f2c405c598ef862925cac922bb2be28ece8c615d7088bd06c80e18ed"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N09-01/score.json",
+      "public_display_sha256": "52c4741bdd619076e5eb8f529bbdfbe793ed0d390c0304201b4f918c5484445c"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N09-02/answer.md",
+      "public_display_sha256": "2c2ed548574d61b5fef95c96f821f3c5ddaee1a1874a5557d4d1b22dc43af976"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N09-02/artifacts.json",
+      "public_display_sha256": "3bb298f64e147850280c7db9348171c594f9c6e1b4f1976955a0566688462e31"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N09-02/metadata.json",
+      "public_display_sha256": "768008fe9e2a28dcc46886a4ee843077b1e5ef4cc8abced7385ae112cc30d55d"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N09-02/score.json",
+      "public_display_sha256": "a47914c872f5896ffa31a8c806d1f42c1206c10d58864014a51d6c2b9e19bfc8"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N09-03/answer.md",
+      "public_display_sha256": "ee5105d19b8beabbb5ebc66579977e977d391c7b15cd54be1bcdd293cb58def1"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N09-03/artifacts.json",
+      "public_display_sha256": "e0c740344e546d874bf3157ee1c5271d04dda7a2ba6cebef116b075acb6950f7"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N09-03/metadata.json",
+      "public_display_sha256": "ba16f44805f4b282d90b16d23765fbf71b02c927e4ef031a2aab32592a775580"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N09-03/score.json",
+      "public_display_sha256": "7f05384cf9e24d1dfa5503a18a5281727b2994a529960247fa6838f543368082"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N10-01/answer.md",
+      "public_display_sha256": "2e9364059765f6a4f8e86963b9c615334eed2b088c6bc4c8808912f11fb9eb21"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N10-01/artifacts.json",
+      "public_display_sha256": "a704e61e2d15a658a2138b10bf9fdab230fa445668f961d51a3b1bfe817f5499"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N10-01/metadata.json",
+      "public_display_sha256": "060e7b00ea710c7dae925656f7b19930828cfd3442630ea8d7bf4e0490e1b519"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N10-01/score.json",
+      "public_display_sha256": "2ec385a0f933db93b4ef5a079945a41af481358f4adf1626878b0a83fa4f5ddb"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N10-02/answer.md",
+      "public_display_sha256": "c727237b6ab37e701d00857e9a3fcb09a517237c507e4ab25cc596dc8aba5037"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N10-02/artifacts.json",
+      "public_display_sha256": "66ea647323166f5faa8e6aecd6a8ad420aef745149679eb13ab6fae34d6c8842"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N10-02/metadata.json",
+      "public_display_sha256": "3fe56ba2cb028fab61c1c8ace431f980fc4af515013ee9c31af262a359599be0"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N10-02/score.json",
+      "public_display_sha256": "08d52840281c7ed807cee71c292a9d49a36025e4bf8d4e5c0d1a478cdc68426d"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N10-03/answer.md",
+      "public_display_sha256": "1b1306d5da593d7071ff9eb588a3b91967c07265b522a624218920a3d6963741"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N10-03/artifacts.json",
+      "public_display_sha256": "39f07556b183744475d19c232c68c8010e7a5ef3fc12d14d3027ea66404846f3"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N10-03/metadata.json",
+      "public_display_sha256": "d428546751627bdfbda771f208904bbc642522a4d4af7e3306bbe000ed4aa80f"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N10-03/score.json",
+      "public_display_sha256": "889ca2a8d0d55ea585eb75e51773721a98443858403ca29cc2fbff3ee66e79f3"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N11-02/answer.md",
+      "public_display_sha256": "cd13f1016688ce57732ff01f9d963f3f2ff0b7246f6602dbd840d875c99a8013"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N11-02/artifacts.json",
+      "public_display_sha256": "2dd019e94f29508c67e825aa4dd5d1f24ea0b9b60536102f712908cda9f663d4"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N11-02/metadata.json",
+      "public_display_sha256": "c6f5082d8f7bdd7601ac269c75209a15846f3c3dd40dea68f8a992715cdb2ab7"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N11-02/score.json",
+      "public_display_sha256": "a87c9b13f459c9d18c7756c026af2701a90a43d3e40b03940c96b8457e50367d"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N11-03/answer.md",
+      "public_display_sha256": "c94b8226a179ae8e873bb795d4296a060667cb43ebaceeda19536cad4ecb9377"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N11-03/artifacts.json",
+      "public_display_sha256": "8538fe2c125e740dc409887db05b3ad7805cfd12c40e208828855ecb882c80ac"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N11-03/metadata.json",
+      "public_display_sha256": "f27b9321b4768ab1e0bc4e0d68522c82cc86a3a8af33699fff1dcb4b29666f87"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N11-03/score.json",
+      "public_display_sha256": "0faed91331551ffc6e9e3d3a05dfc3071efcee5be6e3266611ce381a4cf834a8"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N12-01/answer.md",
+      "public_display_sha256": "3de6ad508cb718ef97a21cd04c8b5fa2430e7bd6e79b515aeb4f9ee7ec9a825d"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N12-01/artifacts.json",
+      "public_display_sha256": "f30a4eb7571d021bbee83f4cc1b498f16ab17a3f097e474ea04685dce4a02d7c"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N12-01/metadata.json",
+      "public_display_sha256": "e333ce901215066248fe979ec38f1d12db8d4123c052d9ecc49a22866e49059b"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N12-01/score.json",
+      "public_display_sha256": "e87ba49f214be575fffd7a614dddf1154cc730f368d2281e647521f53922312c"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N12-02/answer.md",
+      "public_display_sha256": "a4f62aa879e0dbda4d7fca438abb1e22943b3e15d31eecfc6c380447179afc7b"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N12-02/artifacts.json",
+      "public_display_sha256": "92d306e6e07bbfae94ee4538e67171336d93fddfb6eaad536e5e2c0f0fee0fea"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N12-02/metadata.json",
+      "public_display_sha256": "3931c829af7eb51f25b63ded27e12a69271a17ff4992cee2d7d07c84abf4be43"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N12-02/score.json",
+      "public_display_sha256": "8041c39986f9369aaef4c101da144c6fb00a6f8920d9033d2680c899d26585ee"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N12-03/answer.md",
+      "public_display_sha256": "ad3be72ae72f4e6e9f823ee573508d485d683a0a01960fdf297139069d3adbbf"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N12-03/artifacts.json",
+      "public_display_sha256": "ec390643e0dd7be8c4f273cbc0ea7c007ab2efcf1185df22e8d09a504cdd6a33"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N12-03/metadata.json",
+      "public_display_sha256": "fb1e70c5654c63b5273455b2606c0a1b73b9d64e2c804f72cf89d96e38bf995a"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N12-03/score.json",
+      "public_display_sha256": "e9357201581496beef9fe54bedd32db13dfe7602fe4e83f12687eeab2f439b74"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N13-02/answer.md",
+      "public_display_sha256": "c8b81693c84c128226057743747e367f68d0fa542cf3470f666af2e4802c288f"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N13-02/artifacts.json",
+      "public_display_sha256": "f249c77260d87b537b6e73e2215d7e290db76a3556a9a18919b244738b65d985"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N13-02/metadata.json",
+      "public_display_sha256": "e3a096968c8035a09674aad1140f40d8dc57ab18b781fd0e9e8e1834b3ac770c"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N13-02/score.json",
+      "public_display_sha256": "8eff90253188b3005ec64a01430967c61b11513dd9f697e795f6019565ade82b"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N13-03/answer.md",
+      "public_display_sha256": "87735194708581577d657ed92fa73293062af0d72a696f207096bcadfd32e5d0"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N13-03/artifacts.json",
+      "public_display_sha256": "7b7dc4ea3f3d4b6ea88efc427f3aac2cbde790435c5325e4c43d3f3a388522ec"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N13-03/metadata.json",
+      "public_display_sha256": "01ee79b566f757563861b69e3df4da70c34bae97dbc326959bce8c2b1ef726b3"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N13-03/score.json",
+      "public_display_sha256": "65b06af636976465ee0280a027505a08b2a050cd55665760756f240c56456a23"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N14-01/answer.md",
+      "public_display_sha256": "6f554f93876ba4bdc255e7586690e970dca50095ae59f3bd6d75857d3fe91c30"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N14-01/artifacts.json",
+      "public_display_sha256": "c4bc5d5852d7d1e64720a32e5139199d8e198752ec93469170260026f23be745"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N14-01/metadata.json",
+      "public_display_sha256": "35d0c68afc233b8e03c789e5b267f4c3cc4e45b4601fa44817e00f237ba11276"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N14-01/score.json",
+      "public_display_sha256": "7053b1d19b77ec22575d1dcf35bedf22799d5caec23417e0cc7e25ae95ddb351"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N14-02/answer.md",
+      "public_display_sha256": "c1c35a81cd73c1079ae4bc87c35d3ae86d82216c5940413d1ce48933dbef4a16"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N14-02/artifacts.json",
+      "public_display_sha256": "c32e2c3c1058f89f1aef6c907392e208b7cb6b02611c55973879034e873671cd"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N14-02/metadata.json",
+      "public_display_sha256": "7d339f9fca55c09dfee8f076641aaf6ab8ae7859fe59641ed24f8b85db7ab38a"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N14-02/score.json",
+      "public_display_sha256": "83e9e69233226830416148b1be225a3233ae56c9567a58ea7b82383642232c6f"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N14-03/answer.md",
+      "public_display_sha256": "eee57c251e7620d06a40a0a1352755fb9da7d7174d07239fd8f41ab3eb98bf1e"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N14-03/artifacts.json",
+      "public_display_sha256": "b047b199fabbc12ee4c06c1f67202f3d67504f47a282294277cad4bcd58bca54"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N14-03/metadata.json",
+      "public_display_sha256": "f8a639e52b51b66a59793e1e8acb5dfe1487ef54c8b2fcaa6ecdf15a41758b09"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N14-03/score.json",
+      "public_display_sha256": "389b93ebe99d8be830dda38cbdc73e7f977e8d7df70e26462587aef7066d5e5a"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N15-01/answer.md",
+      "public_display_sha256": "c08c18246c3b84e8b14cfcc2ab3ff830a0c37a3c7eef4b9f2a73a2ae4443f785"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N15-01/artifacts.json",
+      "public_display_sha256": "5e293a6c87bd502675eef788ca195f5e3af3a2c38f2aa899dcffa75a7ff48499"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N15-01/metadata.json",
+      "public_display_sha256": "90aded460afd361e4f22a8ffe743381cb3e3f62368687a9af2abe216865ee245"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N15-01/score.json",
+      "public_display_sha256": "3f85324e543aeac7ae6dbee6452969ef577123f4822e05da966f77c73de5dff5"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N15-02/answer.md",
+      "public_display_sha256": "edafc4b7e15ad72b3dde86730d403955ff166875132fc482fc808573c00a1d90"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N15-02/artifacts.json",
+      "public_display_sha256": "d61dd61c3d6ea3f31fe1f31b83c06cad160d5a0e7af0d772e84036676dcc3d25"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N15-02/metadata.json",
+      "public_display_sha256": "6ed82c56ca852523dcd90999233023b9ed33b691e344bc8f6ed8819b16266757"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N15-02/score.json",
+      "public_display_sha256": "6dc281c310c77ed578d92fe3542412d48213182cf1e47013385884d9486c39d9"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N15-03/answer.md",
+      "public_display_sha256": "bfebf8ef5a72a1e13c2dac637e6777bede37cfe6a7bc73c88ce0ac3865775db8"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N15-03/artifacts.json",
+      "public_display_sha256": "297939e22be8414c1cfce2a72ee015cb5e350073f8c68cfe774d2a07be394e4a"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N15-03/metadata.json",
+      "public_display_sha256": "78443ca762ad1a6bf89940618c1a3160f6bd205234bf3b0e57994eeb38233c3c"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N15-03/score.json",
+      "public_display_sha256": "ff9546ed3e4c6f1d70b1fb25098d15a874f1e11c003af3895511b5fd9a499b47"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N16-01/answer.md",
+      "public_display_sha256": "da4e9195dfc695839c66642ec1e1f044463efd67bf281c88aa89835587979924"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N16-01/artifacts.json",
+      "public_display_sha256": "e48f0ae4ecabe75d89b9a3eef80cd9cf50dda8a8592b4c80ad7692e0cdeab76a"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N16-01/metadata.json",
+      "public_display_sha256": "cd718c2567441823d45e664c8a2360e6ef152857edace8282b649a3738c43ec0"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N16-01/score.json",
+      "public_display_sha256": "7ec57d7c295b555d7f606d1f59bcb03f4476d149a626cb10a5349400a5394246"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N16-02/answer.md",
+      "public_display_sha256": "66fb81333220d774a03d3b247264107928b688042c5dfa0dc7d628ea49f8a65f"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N16-02/artifacts.json",
+      "public_display_sha256": "f1e64e04bd39969c7868f195116144a63c6332dfd5764206312890c3a1167b7c"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N16-02/metadata.json",
+      "public_display_sha256": "c3c670059423608813415fd89896f2a33b073261dab3e27fd18d1774cf71d3f6"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N16-02/score.json",
+      "public_display_sha256": "0510eec171febbd0d1bae5f5462eaf43ed5c8ef56f65468408456546ee9a94ab"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N16-03/answer.md",
+      "public_display_sha256": "18d90f5b74610163ff6324d0506913bc344c8e767dbc75421681b2bdaa54efd5"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N16-03/artifacts.json",
+      "public_display_sha256": "0d2c42f727e7f4d89f6a48b25b30c2a4916ad85305bc4000c46727fcbab1fe58"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N16-03/metadata.json",
+      "public_display_sha256": "8e7b7bcd8225b799b3c66911146433733a63507e03f234d16f1ab5246f2c5267"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/N16-03/score.json",
+      "public_display_sha256": "440c6b985412dd06a582ac745b561ba43f5245e71987f6c29023a5609ce7986d"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/O01-04/answer.md",
+      "public_display_sha256": "4e4e4cd9001272a25c5d775b99aa3a62a95efd1d7940ce971c5927be86ed2f6f"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/O01-04/artifacts.json",
+      "public_display_sha256": "44eaba300a7ccf602924eb4ce058c3e4a3674745c7d7c4738552cda52dab9101"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/O01-04/metadata.json",
+      "public_display_sha256": "03bf8a7ba26230027975497887987a2dcbbb128f40554f98d71e864d1c130560"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/O01-04/score.json",
+      "public_display_sha256": "fe0da8ee00a4ca41a23e3a6f38665f1f9034ba505f941a4e183d1969234cafb2"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/O03-04/answer.md",
+      "public_display_sha256": "fe3605a5dc5f3a4079dd32af39271384dcea97473b52fc9d15c95c9379932cdd"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/O03-04/artifacts.json",
+      "public_display_sha256": "b0c52d0b9ccf707a1d6b6b675d15e2bdf918f851865b1e9aefd6deaef6ca657d"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/O03-04/metadata.json",
+      "public_display_sha256": "cd1538f2503bfe69afa0d2fe558c2f5054b6c5b0944cbf8ab972ebb452bcf811"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/O03-04/score.json",
+      "public_display_sha256": "cbf8f635d46676dea161c3bfb9cda9649ec4c514d2b1315826f75d4dd9d5873c"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/O04-04/answer.md",
+      "public_display_sha256": "046eb5e1e84e5dd2eb732c954a6a0e3c176d83f7d2196817e7e2ed66f4126364"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/O04-04/artifacts.json",
+      "public_display_sha256": "36fa73e1fffb24806f7cfb992d1a4e155f4fc633bb87fd62de6ea641b83d60cb"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/O04-04/metadata.json",
+      "public_display_sha256": "1b00f3801df035cd3db454b83fd81316da05362e5d5a23a6ec698896b1eae079"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/O04-04/score.json",
+      "public_display_sha256": "56f07481b9ff8fece05af34eb242abf3b1f4813951be3ca2006476637a90235c"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/O06-02/answer.md",
+      "public_display_sha256": "55deb7c6a23d5b58c92041833cac804bf9449a3a006d3c4b94d0abd9648ec65a"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/O06-02/artifacts.json",
+      "public_display_sha256": "2919735c9eba91d43de750aafcfc1ec22acd21856bf73e0ca7307b54f4f8b0a0"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/O06-02/metadata.json",
+      "public_display_sha256": "fea359361750da8d14e451b21fe9bb43179ab28b004183dc1248aaaff8ee1345"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/O06-02/score.json",
+      "public_display_sha256": "67bc846b60af7df5c948303f94c3415159c366577ad2ca0aa7bfbf37f05809cc"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/O08-02/answer.md",
+      "public_display_sha256": "3d2323979826b93cb69bca0b109bf3f132324d5df7ba0670d3dcaf9c83bca738"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/O08-02/artifacts.json",
+      "public_display_sha256": "97b972c57021c9aaf2ea0d70b9a6325e69a2418c1fc893daeba10c9359ceb7ed"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/O08-02/metadata.json",
+      "public_display_sha256": "0829250771819bad3dc1b3e89f192892ca3478b3653edb5c1d030a8df2517a18"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/O08-02/score.json",
+      "public_display_sha256": "b286ee8a141aa19111f7dc6945710869a3a274c33a73a8d43bc539c66fa2e70a"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/TRY-A-03/answer.md",
+      "public_display_sha256": "596fb10c253f6e3c0d3c87a929ad4fb2b3663f21015dccc6e8600ab444a0ce66"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/TRY-A-03/artifacts.json",
+      "public_display_sha256": "74c6bc126d05d5b965a89adecdf3eff4d07b44235974732d19330101206e1dc8"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/TRY-A-03/metadata.json",
+      "public_display_sha256": "507b19803bd4202cfb4eeea2448bf208165b7ebe1cdf7aa4a169600fa3542071"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/TRY-A-03/score.json",
+      "public_display_sha256": "bea7fcc7d78715a3a522d4f83ba1823f22854e4660df63add9370a4f79d80bad"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/TRY-B-02/answer.md",
+      "public_display_sha256": "ce49e918f2929413aef206ab4f1ace85e4fe41cf9e04db9a57909d567b870223"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/TRY-B-02/artifacts.json",
+      "public_display_sha256": "19bc42127ebe6b1d4cff899aef175e7367e8217524eaf52c7cc32e808c841991"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/TRY-B-02/metadata.json",
+      "public_display_sha256": "7c4ef14962f150f0afb8b5bad60651eb9d1ac83bc0bcef7b2a164f0435e9f408"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/TRY-B-02/score.json",
+      "public_display_sha256": "b3201fba111878f29bd1b10ade6548831cefd69dfa0fe7197bb29835c6ac9d91"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/TRY-B-03/answer.md",
+      "public_display_sha256": "43a917ce91ae12d65e83286b005c0b99206342aca55b35372d762387f9cd8deb"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/TRY-B-03/artifacts.json",
+      "public_display_sha256": "49b9f8cba27edcd4132f0539177bfa1240e40ff159c74f076bdc92a1ec998be9"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/TRY-B-03/metadata.json",
+      "public_display_sha256": "2a558b76992960b7e789f66a97c2ed714bedb25700d1fbd9a342371ecd594d4a"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/TRY-B-03/score.json",
+      "public_display_sha256": "fbd69a5b2375afdeef787a634278e28fd93a31d3f477fc6127e66e9a51e53a43"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/TRY-C-03/answer.md",
+      "public_display_sha256": "20985747407ca54863decf06d366d4e02c08a808978e25e18b81058f70ce6ad4"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/TRY-C-03/artifacts.json",
+      "public_display_sha256": "473089c4334440fb951eee4ddbc10b4eed98f8c85d2bfd471045512873e56803"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/TRY-C-03/metadata.json",
+      "public_display_sha256": "52719426e5fbe91a021f8f92b567c7982c17f9e2cf29faa90c69087b7a6a801f"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/TRY-C-03/score.json",
+      "public_display_sha256": "e172c22ebb58288e9427c07a7ca521255144738c8b7dde744e24f953875f8282"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/TRY-D-02/answer.md",
+      "public_display_sha256": "9878f97f06ed35a790d6b418b33e7d29f3bdbdceef9f397b1481f2a475bfc648"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/TRY-D-02/artifacts.json",
+      "public_display_sha256": "40f4c76cd7ea1f87a740811b5c205caa94cba1624d6791f0f377cb2509d1fa1c"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/TRY-D-02/metadata.json",
+      "public_display_sha256": "156ccba67f900bac2b34d4ccfe88604cb4b0bf6f4e44c53071f2718ab220f4c7"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/TRY-D-02/score.json",
+      "public_display_sha256": "ae7b150ada88b4996aa7239de04ee51702376e021a0400bdccd85ce6e73f1efb"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/TRY-E-02/answer.md",
+      "public_display_sha256": "75c83c9bf8779031079aab7d1dc95af776a18c92069bf844bdcf1aef564fd88a"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/TRY-E-02/artifacts.json",
+      "public_display_sha256": "3f02303bfa6b2defa972d13bdbd6ed66a586bda5ff582420f784f8d387cf0a27"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/TRY-E-02/metadata.json",
+      "public_display_sha256": "289577d360cfbe0519b38e8a577a110a67ee399f5edbcefaf3010bf1efd8e9fa"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/TRY-E-02/score.json",
+      "public_display_sha256": "4c1e1ef7ed1bf2840b2fe236edc66af1cee7adbd9bd2cbeb920c6a527545b139"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/TRY-E-03/answer.md",
+      "public_display_sha256": "16ccef2da98539787cc398187e6bb56c45b8982d88d612f5e606eaa67f458f04"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/TRY-E-03/artifacts.json",
+      "public_display_sha256": "0094d09cd19cbed42393cec4ddd78dd3ffa04534d414fa679bd3e83171ceb512"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/TRY-E-03/metadata.json",
+      "public_display_sha256": "9bb9722dde27585664fb5c566041aac491ffa1cf5e54238bc1900f142569a430"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/TRY-E-03/score.json",
+      "public_display_sha256": "f0e2516a8246529dfbe86f5a7e867e8b78ebca72ff19c17266658e3a403a094c"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/TRY-F-02/answer.md",
+      "public_display_sha256": "4c7997f1f19bd93d3bd21c48e0e8a8fc92f54f1a52a58b837b320715972c2b50"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/TRY-F-02/artifacts.json",
+      "public_display_sha256": "d7d2d30a0a612ff506a4a29107da22cedea6bf0e6a649871b40de94ea13cba81"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/TRY-F-02/metadata.json",
+      "public_display_sha256": "4f25bd04e1bec7041dd2b2e2cd56c43fbe78643d65fb91d5d928247d6da60b3e"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/TRY-F-02/score.json",
+      "public_display_sha256": "53c485dba8eba384ec7dcb784275c18c9c1480483b508bae886801ea9b123824"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/TRY-G-01/answer.md",
+      "public_display_sha256": "0948b66177f25c6c9687897a676132161d1960ec16905578231806c520ceafce"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/TRY-G-01/artifacts.json",
+      "public_display_sha256": "c05d088693add480dea73fa278ef6aaefbfadbf1566c2f7b78aa049e8e80f664"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/TRY-G-01/metadata.json",
+      "public_display_sha256": "b24a901476ab93c8f4be2719a5af0b4fb2dd632eb2739b52e5b26a8c0420a13b"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/TRY-G-01/score.json",
+      "public_display_sha256": "86148cd06cd784cd8ee2ce4799346f9a97148e4bedc424d3a51d2557fcadc48b"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/TRY-G-02/answer.md",
+      "public_display_sha256": "ffa287536773e62d18e3ecc89baf99ad4a2b2b71b1dacea14c7b6c53b720d6c9"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/TRY-G-02/artifacts.json",
+      "public_display_sha256": "c235081fe6f1099cfb6763f77b8eb02c838faa00c7837bebaa842f1f3fa0da61"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/TRY-G-02/metadata.json",
+      "public_display_sha256": "d392e0122ef0c02f896430a947dc6d865121de592a5eded69e5466c157abc5cd"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/TRY-G-02/score.json",
+      "public_display_sha256": "bfe9e4991395a2e4cb0588c3e6a45438f6d53bba185611d27b46d9f98e3c8906"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/TRY-H-02/answer.md",
+      "public_display_sha256": "6b016547cea2870a8e36a0ad8c255e26c30e993853d1da333fbbaa0abafc4d61"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/TRY-H-02/artifacts.json",
+      "public_display_sha256": "6cc47c36212bcea865e66c57849531f3aec938e1ba1040684f1d6467ec709a5f"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/TRY-H-02/metadata.json",
+      "public_display_sha256": "438113584fb5052de94b1f025be12c17bfb7937eb1894d70bdafa8d3d8fa46ae"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/TRY-H-02/score.json",
+      "public_display_sha256": "75f3cba5f3b69b85b7eb3b0455efc824225748357109471f094ee3e0660ecaca"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/manifest.json",
+      "public_display_sha256": "c9c7b5c535dff4bb8b974aa5c5fb9db5f0f41b64705b8844b87b73d996580a44"
+    },
+    {
+      "path": "experiments/records70/models/workbuddy-hy4-preview/README.md",
+      "public_display_sha256": "0ae6cab5f1170f14ff7f91f3f95946fce3fe1835632580a78dea118a83638bde"
+    },
+    {
+      "path": "docs/figures/dev70-current/fig1_en_workbuddy.png",
+      "public_display_sha256": "7f31087ba1aac34519639b609cafd6e5b72751e8fd3a374831bb41065c98175a"
+    },
+    {
+      "path": "docs/figures/dev70-current/fig1_zh_workbuddy.png",
+      "public_display_sha256": "fc9a603cdcdc746869f7340c0c90ce466b62d56e5ee5f275b0a91c289fdc2bd3"
+    },
+    {
+      "path": "docs/figures/dev70-current/fig3_en_workbuddy.png",
+      "public_display_sha256": "6c6f93289d0bb19423ac19f38741e706c029de3b069a8b0345f0073cbd18a802"
+    },
+    {
+      "path": "docs/figures/dev70-current/fig3_zh_workbuddy.png",
+      "public_display_sha256": "8260707f35632db3ff0c008fe76334659ff479f72381753f2d340eb0721b2895"
+    },
+    {
+      "path": "scripts/render_agent_score_charts.py",
+      "public_display_sha256": "3bcf54065bc35939227aad34781774ca3aae79108e901f42c6ebe818978f1c0a"
     }
   ],
-  "generated_at": "2026-10-14T08:18:33.337997+00:00",
+  "generated_at": "2026-11-11T11:21:29.498449+08:00",
   "separate_retained_execution_record": {
     "path": "experiments/records18/",
     "task_count": 18,

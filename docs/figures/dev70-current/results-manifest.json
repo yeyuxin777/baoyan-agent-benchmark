@@ -3,27 +3,28 @@
   "task_count": 70,
   "stage_count": 83,
   "case_group_count": 23,
-  "model_count": 8,
+  "model_count": 9,
   "files": {
-    "fig1_en_2l.png": "bbe3639e883bea838e842fd3905b01d05888a7a5bad8c903a1dc2c416de6553a",
-    "fig1_zh_2l.png": "6102e85361b2b1a0c71fe52b500aafcfdc622cee634bbc46afa7f98dcf3ff7a7",
     "fig2_en.png": "15ca01a8558fea2ef708bf8b5ab87dee38d1c4de99863103ea2b566086d5a45f",
     "fig2_zh.png": "d8755c732a4cf1beaaa98503fad2baeb0b5678a27dd20f31d970d761f8809551",
-    "fig3_en_2l.png": "9310542d3e04397383397a96e0663508b09c7fce61a64954beeefa6a9e66c2c9",
-    "fig3_zh_2l.png": "4a5a2258e6c00d167adf7c963d91303d805449b91404b439b97f747569f0b560",
     "fig_diff_en.png": "53545e440b484bcd5bbce35a22a2d8c346845ccba1b8d5055ad73766725f115d",
     "fig_diff_zh.png": "5dd8d556e42ab1b3c0cee8781f0a4d8d1027b4dfc24c579c7aecd5e6880e1bd8",
     "fig_task_en.png": "5997bdd329f0ee896eb0120e47097f3ed3c555088330bd0007230ba6a0f1cea6",
-    "fig_task_zh.png": "730083e9fb8cfc1991570cf8b695deafbc62ec1d02574542b2934221a5dc63c8"
+    "fig_task_zh.png": "730083e9fb8cfc1991570cf8b695deafbc62ec1d02574542b2934221a5dc63c8",
+    "fig1_en_workbuddy.png": "7f31087ba1aac34519639b609cafd6e5b72751e8fd3a374831bb41065c98175a",
+    "fig1_zh_workbuddy.png": "fc9a603cdcdc746869f7340c0c90ce466b62d56e5ee5f275b0a91c289fdc2bd3",
+    "fig3_en_workbuddy.png": "6c6f93289d0bb19423ac19f38741e706c029de3b069a8b0345f0073cbd18a802",
+    "fig3_zh_workbuddy.png": "8260707f35632db3ff0c008fe76334659ff479f72381753f2d340eb0721b2895"
   },
-  "source_sha256": "a045408cefb68bf9f7ea0723ddcd2643fcfe9287a04de7ff3f7f7d1e79c97d89",
+  "source_sha256": "5640d73b259efab74318e93e531a5119dcb6b597518f26658fdbacb8a7861265",
   "source_files_sha256": {
-    "experiments/records70/score-summary-70.json": "a045408cefb68bf9f7ea0723ddcd2643fcfe9287a04de7ff3f7f7d1e79c97d89",
-    "experiments/records70/score-details-70.json": "8baf9212f3c60fc4722722712cfef726cfa177b9356f61c373897ea4711af6f2",
+    "experiments/records70/score-summary-70.json": "5640d73b259efab74318e93e531a5119dcb6b597518f26658fdbacb8a7861265",
+    "experiments/records70/score-details-70.json": "fb3b27648c01b6f7ac197fb9aef0b419bdb43f1bbe71e1ddf6cce9243a48f139",
     "config/selections/current.json": "cc951a9f19f3bbf5af71699a0597bc9b8dafaa44619d2a22809b82f096cd430b",
     "data/staged-dev/O03-04/task.json": "bcee2caef1d5baa476dccd7e4fcd2f36d5a96ca0d44681db38a04a8fbd87afd8",
     "data/staged-dev/O03-04/rubric.json": "a311947d9be78b5ad35499f6aefe3e07cefb436e24e807ec7dd74210bfc7af30",
-    "scripts/render_current70_figures.py": "321fc6c1b03e1fdc2eb9c1b09db942cdddd6d879b4e4553da1422ab1a5be268d"
+    "scripts/render_current70_figures.py": "28d7a1327f03b14b5df0d6acd536fff5df594fce17a80795733943c6ca2ef8af",
+    "scripts/render_agent_score_charts.py": "3bcf54065bc35939227aad34781774ca3aae79108e901f42c6ebe818978f1c0a"
   },
   "generator": "scripts/render_current70_figures.py"
 }

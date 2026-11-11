@@ -1,0 +1,33 @@
+{
+  "task_id": "TRY-F-02",
+  "question_id": "Q016",
+  "stage_count": 1,
+  "execution_status": "completed",
+  "score_status": "scored_draft",
+  "privacy_review_status": "display_copy_reviewed_with_limits",
+  "input_version": "original-1.0.1-private70",
+  "client_version_ui": "5.8.2",
+  "model_ui": "Hy4 preview",
+  "model_identity_verified": false,
+  "trajectory_status": "structured_trace_not_captured",
+  "isolation_verified": false,
+  "mode": "办公",
+  "permission_ui": "允许完全访问",
+  "new_conversation": true,
+  "memory": "unknown",
+  "web_search": "unknown",
+  "elapsed_ui": "8m33s",
+  "usage_ui": "22.38 (UI units; currency unverified)",
+  "overlapping_runs": [
+    "TRY-E-02",
+    "BY-F-APPLY"
+  ],
+  "schema": "selected-record-provenance.1",
+  "agent": "workbuddy-hy4-preview",
+  "source_kind": "workbuddy_desktop_original_input",
+  "score": 57.5,
+  "source_answer_sha256": "05e32f01fcd4f41d9decbb1ac17a775ccf63c30d7bcaaaebb71bc679d3fb53c9",
+  "public_answer_sha256": "4c7997f1f19bd93d3bd21c48e0e8a8fc92f54f1a52a58b837b320715972c2b50",
+  "answer_text_available": true,
+  "original_execution_time": null
+}

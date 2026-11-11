@@ -1,0 +1,555 @@
+{
+  "agent": "workbuddy-hy4-preview",
+  "product": "WorkBuddy",
+  "requested_model": "Hy4 preview",
+  "input_version": "original-1.0.1-private70",
+  "source_signature": "4849f7c63af68f88a792b440e362093a5c91d9fff83366367ebc876cdafe5a79",
+  "planned_tasks": 70,
+  "planned_stages": 83,
+  "privacy_review": "Task-specific de-identified display copies. Residual exact personal ranks and precise rank percentages were generalized. No global anonymity claim.",
+  "tasks": [
+    {
+      "task_id": "BY-A-PLAN",
+      "question_id": "Q001",
+      "stage_count": 1,
+      "status": "completed",
+      "score": 52.5
+    },
+    {
+      "task_id": "BY-A-APPLY",
+      "question_id": "Q002",
+      "stage_count": 1,
+      "status": "completed",
+      "score": 24.71
+    },
+    {
+      "task_id": "TRY-A-03",
+      "question_id": "Q003",
+      "stage_count": 1,
+      "status": "completed",
+      "score": 75.0
+    },
+    {
+      "task_id": "BY-B-APPLY",
+      "question_id": "Q004",
+      "stage_count": 1,
+      "status": "completed",
+      "score": 71.0
+    },
+    {
+      "task_id": "TRY-B-02",
+      "question_id": "Q005",
+      "stage_count": 1,
+      "status": "completed",
+      "score": 65.0
+    },
+    {
+      "task_id": "TRY-B-03",
+      "question_id": "Q006",
+      "stage_count": 1,
+      "status": "completed",
+      "score": 80.0
+    },
+    {
+      "task_id": "BY-C-WINTER",
+      "question_id": "Q007",
+      "stage_count": 1,
+      "status": "completed",
+      "score": 62.5
+    },
+    {
+      "task_id": "BY-C-APPLY",
+      "question_id": "Q008",
+      "stage_count": 1,
+      "status": "completed",
+      "score": 57.33
+    },
+    {
+      "task_id": "TRY-C-03",
+      "question_id": "Q009",
+      "stage_count": 1,
+      "status": "completed",
+      "score": 52.5
+    },
+    {
+      "task_id": "TRY-D-02",
+      "question_id": "Q011",
+      "stage_count": 1,
+      "status": "completed",
+      "score": 85.0
+    },
+    {
+      "task_id": "BY-E-APPLY",
+      "question_id": "Q012",
+      "stage_count": 1,
+      "status": "completed",
+      "score": 36.47
+    },
+    {
+      "task_id": "TRY-E-02",
+      "question_id": "Q013",
+      "stage_count": 1,
+      "status": "completed",
+      "score": 40.0
+    },
+    {
+      "task_id": "TRY-E-03",
+      "question_id": "Q014",
+      "stage_count": 1,
+      "status": "completed",
+      "score": 75.5
+    },
+    {
+      "task_id": "BY-F-APPLY",
+      "question_id": "Q015",
+      "stage_count": 1,
+      "status": "completed",
+      "score": 62.65
+    },
+    {
+      "task_id": "TRY-F-02",
+      "question_id": "Q016",
+      "stage_count": 1,
+      "status": "completed",
+      "score": 57.5
+    },
+    {
+      "task_id": "TRY-G-01",
+      "question_id": "Q017",
+      "stage_count": 1,
+      "status": "completed",
+      "score": 70.0
+    },
+    {
+      "task_id": "TRY-G-02",
+      "question_id": "Q018",
+      "stage_count": 1,
+      "status": "completed",
+      "score": 35.0
+    },
+    {
+      "task_id": "BY-H-APPLY",
+      "question_id": "Q019",
+      "stage_count": 1,
+      "status": "completed",
+      "score": 41.13
+    },
+    {
+      "task_id": "TRY-H-02",
+      "question_id": "Q020",
+      "stage_count": 1,
+      "status": "completed",
+      "score": 70.0
+    },
+    {
+      "task_id": "BY-G-APPLY",
+      "question_id": "Q021",
+      "stage_count": 1,
+      "status": "completed",
+      "score": 60.73
+    },
+    {
+      "task_id": "BY-E-REPLAN",
+      "question_id": "Q023",
+      "stage_count": 1,
+      "status": "completed",
+      "score": 80.0
+    },
+    {
+      "task_id": "BY-E-PREP",
+      "question_id": "Q024",
+      "stage_count": 1,
+      "status": "completed",
+      "score": 30.0
+    },
+    {
+      "task_id": "N01-01",
+      "question_id": "Q025",
+      "stage_count": 1,
+      "status": "completed",
+      "score": 42.5
+    },
+    {
+      "task_id": "N01-03",
+      "question_id": "Q026",
+      "stage_count": 1,
+      "status": "completed",
+      "score": 52.18
+    },
+    {
+      "task_id": "N02-01",
+      "question_id": "Q027",
+      "stage_count": 1,
+      "status": "completed",
+      "score": 87.5
+    },
+    {
+      "task_id": "N02-02",
+      "question_id": "Q028",
+      "stage_count": 1,
+      "status": "completed",
+      "score": 57.5
+    },
+    {
+      "task_id": "N02-03",
+      "question_id": "Q029",
+      "stage_count": 1,
+      "status": "completed",
+      "score": 45.0
+    },
+    {
+      "task_id": "N03-01",
+      "question_id": "Q030",
+      "stage_count": 1,
+      "status": "completed",
+      "score": 50.0
+    },
+    {
+      "task_id": "N03-02",
+      "question_id": "Q031",
+      "stage_count": 1,
+      "status": "completed",
+      "score": 45.0
+    },
+    {
+      "task_id": "N03-03",
+      "question_id": "Q032",
+      "stage_count": 1,
+      "status": "completed",
+      "score": 67.3
+    },
+    {
+      "task_id": "N04-01",
+      "question_id": "Q033",
+      "stage_count": 1,
+      "status": "completed",
+      "score": 86.0
+    },
+    {
+      "task_id": "N04-03",
+      "question_id": "Q034",
+      "stage_count": 1,
+      "status": "completed",
+      "score": 43.3
+    },
+    {
+      "task_id": "N05-01",
+      "question_id": "Q035",
+      "stage_count": 1,
+      "status": "completed",
+      "score": 60.0
+    },
+    {
+      "task_id": "N05-03",
+      "question_id": "Q036",
+      "stage_count": 1,
+      "status": "completed",
+      "score": 58.67
+    },
+    {
+      "task_id": "N06-01",
+      "question_id": "Q037",
+      "stage_count": 1,
+      "status": "completed",
+      "score": 45.0
+    },
+    {
+      "task_id": "N06-02",
+      "question_id": "Q038",
+      "stage_count": 1,
+      "status": "completed",
+      "score": 92.5
+    },
+    {
+      "task_id": "N06-03",
+      "question_id": "Q039",
+      "stage_count": 1,
+      "status": "completed",
+      "score": 28.88
+    },
+    {
+      "task_id": "N08-01",
+      "question_id": "Q042",
+      "stage_count": 1,
+      "status": "completed",
+      "score": 50.0
+    },
+    {
+      "task_id": "N08-03",
+      "question_id": "Q043",
+      "stage_count": 1,
+      "status": "completed",
+      "score": 27.35
+    },
+    {
+      "task_id": "N09-01",
+      "question_id": "Q044",
+      "stage_count": 1,
+      "status": "completed",
+      "score": 73.5
+    },
+    {
+      "task_id": "N09-03",
+      "question_id": "Q045",
+      "stage_count": 1,
+      "status": "completed",
+      "score": 58.74
+    },
+    {
+      "task_id": "N10-01",
+      "question_id": "Q046",
+      "stage_count": 1,
+      "status": "completed",
+      "score": 54.0
+    },
+    {
+      "task_id": "N10-02",
+      "question_id": "Q047",
+      "stage_count": 1,
+      "status": "completed",
+      "score": 70.0
+    },
+    {
+      "task_id": "N10-03",
+      "question_id": "Q048",
+      "stage_count": 1,
+      "status": "completed",
+      "score": 39.43
+    },
+    {
+      "task_id": "N11-03",
+      "question_id": "Q049",
+      "stage_count": 1,
+      "status": "completed",
+      "score": 79.25
+    },
+    {
+      "task_id": "N12-01",
+      "question_id": "Q050",
+      "stage_count": 1,
+      "status": "completed",
+      "score": 62.5
+    },
+    {
+      "task_id": "N12-03",
+      "question_id": "Q051",
+      "stage_count": 1,
+      "status": "completed",
+      "score": 38.5
+    },
+    {
+      "task_id": "N13-02",
+      "question_id": "Q052",
+      "stage_count": 1,
+      "status": "completed",
+      "score": 55.0
+    },
+    {
+      "task_id": "N13-03",
+      "question_id": "Q053",
+      "stage_count": 1,
+      "status": "completed",
+      "score": 30.81
+    },
+    {
+      "task_id": "N14-01",
+      "question_id": "Q054",
+      "stage_count": 1,
+      "status": "completed",
+      "score": 50.0
+    },
+    {
+      "task_id": "N14-02",
+      "question_id": "Q055",
+      "stage_count": 1,
+      "status": "completed",
+      "score": 67.5
+    },
+    {
+      "task_id": "N14-03",
+      "question_id": "Q056",
+      "stage_count": 1,
+      "status": "completed",
+      "score": 25.32
+    },
+    {
+      "task_id": "N15-01",
+      "question_id": "Q057",
+      "stage_count": 1,
+      "status": "completed",
+      "score": 65.0
+    },
+    {
+      "task_id": "N15-03",
+      "question_id": "Q058",
+      "stage_count": 1,
+      "status": "completed",
+      "score": 46.6
+    },
+    {
+      "task_id": "N16-01",
+      "question_id": "Q059",
+      "stage_count": 1,
+      "status": "completed",
+      "score": 59.5
+    },
+    {
+      "task_id": "N16-03",
+      "question_id": "Q060",
+      "stage_count": 1,
+      "status": "completed",
+      "score": 59.91
+    },
+    {
+      "task_id": "O08-02",
+      "question_id": "Q061",
+      "stage_count": 1,
+      "status": "completed",
+      "score": 75.0
+    },
+    {
+      "task_id": "N01-02",
+      "question_id": "Q062",
+      "stage_count": 2,
+      "status": "completed",
+      "score": 75.0
+    },
+    {
+      "task_id": "N04-02",
+      "question_id": "Q063",
+      "stage_count": 2,
+      "status": "completed",
+      "score": 77.0
+    },
+    {
+      "task_id": "N05-02",
+      "question_id": "Q064",
+      "stage_count": 2,
+      "status": "completed",
+      "score": 70.0
+    },
+    {
+      "task_id": "N08-02",
+      "question_id": "Q066",
+      "stage_count": 2,
+      "status": "completed",
+      "score": 42.5
+    },
+    {
+      "task_id": "N09-02",
+      "question_id": "Q067",
+      "stage_count": 2,
+      "status": "completed",
+      "score": 85.0
+    },
+    {
+      "task_id": "N11-02",
+      "question_id": "Q068",
+      "stage_count": 2,
+      "status": "completed",
+      "score": 59.0
+    },
+    {
+      "task_id": "N12-02",
+      "question_id": "Q069",
+      "stage_count": 2,
+      "status": "completed",
+      "score": 60.0
+    },
+    {
+      "task_id": "N15-02",
+      "question_id": "Q070",
+      "stage_count": 2,
+      "status": "completed",
+      "score": 67.5
+    },
+    {
+      "task_id": "N16-02",
+      "question_id": "Q071",
+      "stage_count": 2,
+      "status": "completed",
+      "score": 60.0
+    },
+    {
+      "task_id": "O01-04",
+      "question_id": "Q072",
+      "stage_count": 2,
+      "status": "completed",
+      "score": 82.5
+    },
+    {
+      "task_id": "O03-04",
+      "question_id": "Q073",
+      "stage_count": 2,
+      "status": "completed",
+      "score": 82.5
+    },
+    {
+      "task_id": "O04-04",
+      "question_id": "Q074",
+      "stage_count": 2,
+      "status": "completed",
+      "score": 82.5
+    },
+    {
+      "task_id": "O06-02",
+      "question_id": "Q075",
+      "stage_count": 2,
+      "status": "completed",
+      "score": 82.5
+    }
+  ],
+  "publication_status": "prepared_for_repository",
+  "completed_tasks": 70,
+  "running_tasks": 0,
+  "not_started_tasks": 0,
+  "score_status": "scored_draft",
+  "answers_published": 70,
+  "client_version": "5.8.2",
+  "model_identity": "UI label only; provider backend not independently verified",
+  "input_comparability": "Original task inputs were used for execution. Public de-identification is a display layer.",
+  "execution_limits": "Separate task workspaces and fresh task conversations; full filesystem isolation is not verified.",
+  "exceptions": [
+    "Run metadata was initially present in first two task workspaces. Task 2 was observed reading it. No rubric, reference answers or other answers were included. Operator metadata moved outside candidate workspaces thereafter."
+  ],
+  "local_redacted_answer_copies": 70,
+  "concurrency": "Independent task conversations may overlap in wall-clock time.",
+  "execution_interruptions": [
+    "Operator UI control was blocked by screen lock; submitted WorkBuddy sessions continued. Completion checked after manual unlock."
+  ],
+  "prompt_hash_scope": "Frozen original input file; no byte-level capture of desktop network payload.",
+  "execution_sessions": [
+    {
+      "date": "2026-10-16",
+      "client_version_ui": "5.8.2",
+      "model_ui": "Hy4 preview"
+    },
+    {
+      "date": "2026-10-26",
+      "client_version_ui": "5.8.2",
+      "model_ui": "Hy4 preview",
+      "note": "Resumed original frozen inputs; backend model revision not independently verified."
+    },
+    {
+      "date": "2026-10-26",
+      "client_version_ui": "5.8.3",
+      "model_ui": "Hy4 preview",
+      "note": "UI recovery relaunch automatically applied downloaded official client update. Version change recorded per new attempt/stage; conditions not asserted uniform."
+    }
+  ],
+  "completed_stages": 83,
+  "scoring_state": {
+    "status": "completed",
+    "scored_tasks": 70,
+    "mean_score": 59.43,
+    "protocol": "evidence-review-v1",
+    "review_model": "gpt-6.1-sol",
+    "reasoning_effort": "high",
+    "evidence": "Original judgments, frozen inputs and replay records retained privately.",
+    "adjudication": "Evidence-preserving record repairs; individually documented non-scoring uncertainties; Q021 official-source review."
+  },
+  "scored": true,
+  "leaderboard_included": true,
+  "scored_tasks": 70,
+  "mean_score": 59.43
+}

@@ -1,0 +1,66 @@
+{
+  "schema": "selected-score-row.1",
+  "task_id": "N09-01",
+  "question_id": "Q044",
+  "score_interval": [
+    73.5,
+    73.5
+  ],
+  "pending_nodes": [],
+  "answer_status": "completed",
+  "source_answer_sha256": "737729cf969a3b4f20b086cfde53ae6165df00e77f2efe2c923b9df677a5a7e0",
+  "source_kind": "workbuddy_desktop_original_input",
+  "scoring_evidence": "Independent evidence-review-v1; original judgments and replay evidence retained privately.",
+  "nodes": [
+    {
+      "id": "N09-01-T1",
+      "kind": "quality",
+      "grade": 1,
+      "points": 20.0
+    },
+    {
+      "id": "N09-01-T2",
+      "kind": "quality",
+      "grade": 1,
+      "points": 19.0
+    },
+    {
+      "id": "N09-01-T3",
+      "kind": "quality",
+      "grade": 0.5,
+      "points": 6.0
+    },
+    {
+      "id": "N09-01-T4",
+      "kind": "quality",
+      "grade": 0.5,
+      "points": 5.5
+    },
+    {
+      "id": "N09-01-T5",
+      "kind": "quality",
+      "grade": 1,
+      "points": 8.0
+    },
+    {
+      "id": "accuracy",
+      "kind": "quality",
+      "grade": 0.5,
+      "points": 5.0
+    },
+    {
+      "id": "priority",
+      "kind": "quality",
+      "grade": 0.5,
+      "points": 5.0
+    },
+    {
+      "id": "execution",
+      "kind": "quality",
+      "grade": 0.5,
+      "points": 5.0
+    }
+  ],
+  "judge_version": "evidence-review-v1",
+  "official": false
+}

@@ -1,6 +1,6 @@
 # 保研 Agent Benchmark
 
-本项目是屿智同行的保研 Agent 评测项目，评测 Agent 配置（执行系统与模型组合）在保研择校、申请规划与建议更新中的表现。当前结果覆盖 8 组 Agent 配置。
+本项目是屿智同行的保研 Agent 评测项目，评测 Agent 配置（执行系统与模型组合）在保研择校、申请规划与建议更新中的表现。
 
 题库包含70道中文任务、23组案例和83个作答阶段，配套逐题评分标准与参考项目。公开数据无需申请访问；评分资料虽可下载，但评测时不得提供给被测 Agent。
 
@@ -8,7 +8,7 @@
 
 ## 评测结果
 
-本榜单基于70道公开题的评测记录汇总，展示 8 组 Agent 配置的平均得分与完成率。评测设置和评分说明见[文档](docs/result-methodology.md)。
+本榜单基于70道公开题的评测记录汇总，展示各 Agent 配置的平均得分与完成率。评测设置和评分说明见[文档](docs/result-methodology.md)。
 
 | 排名 | Agent 配置（系统 + 模型） | 题数 | 完成率 | 均分 / 100 |
 | ---: | --- | ---: | ---: | ---: |
@@ -17,19 +17,20 @@
 | 3 | [DSH + DeepSeek V4.1 Flash](experiments/records70/models/deepseek-v4-1-flash/README.md) | 70 | 70/70 (100.0%) | 68.16 |
 | 4 | [Volcengine Managed Agent + GLM 5.3 Flash](experiments/records70/models/ark-glm-5-3-flash-260828/README.md) | 70 | 70/70 (100.0%) | 66.80 |
 | 5 | [Qwen Code + Qwen 3.8 Max](experiments/records70/models/qwen3-8-max-0902/README.md) | 70 | 70/70 (100.0%) | 64.24 |
-| 6 | [Kimi Code + Kimi K3](experiments/records70/models/kimi-k3/README.md) | 70 | 70/70 (100.0%) | 58.96 |
-| 7 | [Antigravity + Gemini 3.8 Flash](experiments/records70/models/antigravity-gemini-3-8-flash-high/README.md) | 70 | 70/70 (100.0%) | 58.23 |
-| 8 | [Antigravity + Gemini 3.1 Pro](experiments/records70/models/antigravity-gemini-3-1-pro-high/README.md) | 70 | 70/70 (100.0%) | 55.55 |
+| 6 | [WorkBuddy + Hy4 preview](experiments/records70/models/workbuddy-hy4-preview/README.md) | 70 | 70/70 (100.0%) | 59.43 |
+| 7 | [Kimi Code + Kimi K3](experiments/records70/models/kimi-k3/README.md) | 70 | 70/70 (100.0%) | 58.96 |
+| 8 | [Antigravity + Gemini 3.8 Flash](experiments/records70/models/antigravity-gemini-3-8-flash-high/README.md) | 70 | 70/70 (100.0%) | 58.23 |
+| 9 | [Antigravity + Gemini 3.1 Pro](experiments/records70/models/antigravity-gemini-3-1-pro-high/README.md) | 70 | 70/70 (100.0%) | 55.55 |
 
-8 组 Agent 配置各完成 70 题；当前共 0 题超时。结果来自不同真实运行，输入版本与预算并非全部一致，公开记录也并非全部包含完整工具轨迹；不能据榜单推断统一运行条件。
+各配置使用原版题目作答，公开脱敏文本用于展示；不同运行的预算与客户端设置并非完全一致，公开记录也并非全部包含完整工具轨迹；不能据榜单推断统一运行条件。
 
 当前70题及评分标准均已由维护者确认完成教师校准。难度标签经负责人确认：简单14题（20%）、中等34题（48.57%）、困难22题（31.43%）；不代表独立双标复核。逐题评分记录仍保留生成时的 `scored_draft` 与 `teacher_calibration` 标签；`official=false` 是独立的结果认证标记。
 
 ### 不同 Agent 配置在保研任务上的表现
 
-![不同 Agent 配置在保研任务上的表现](docs/figures/dev70-current/fig1_zh_2l.png)
+![不同 Agent 配置在保研任务上的表现](docs/figures/dev70-current/fig1_zh_workbuddy.png)
 
-8 组 Agent 配置在 70 项评测任务上的平均得分（满分 100 分）。
+70 项评测任务上的平均得分（满分 100 分）。
 
 ![70题难度分布](docs/figures/dev70-current/fig_diff_zh.png?v=5dd8d556e42a)
 
@@ -86,7 +87,7 @@ python3 -m benchmark cli-batch \
 
 ### 分题型表现
 
-![8 组 Agent 配置在三类任务上的表现](docs/figures/dev70-current/fig3_zh_2l.png)
+![各 Agent 配置在三类任务上的表现](docs/figures/dev70-current/fig3_zh_workbuddy.png)
 
 择校推荐 21 题、规划与决策 36 题、两阶段任务 13 题；图示为各类任务的平均得分（满分 100 分），各类最高分以粗体标出。
 
